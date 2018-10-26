@@ -1,0 +1,884 @@
+Safety of Cyanide in Cyanocobalamin
+Due to some articles going around the Internet, many people have written me asking whether vitamin B12 supplements in the form of cyanocobalamin are safe due to the cyanide content. Because so many people have asked, I have updated the page Side Effects of B12 Supplements of Vitamin B12: Are You Getting It? with the following information:
+
+The safety of cyanocobalamin has raised concerns due to the fact that cyanide is a component of cyanocobalamin, and the cyanide molecule is removed from cyanocobalamin when used by the body’s cells. Cyanide is also found in many fruits and vegetables and so humans are always ingesting small amounts of cyanide, and like in most fruits and vegetables, the amount of cyanide in cyanocobalamin is considered to be physiologically insignificant.
+
+According to the European Food Safety Authority, “Data of from a Norwegian dietary survey show that the average and high (97.5th percentile) daily intake of [cyanide] among consumers amounts to respectively 95 and 372 micrograms/person or 1.4 and 5.4 micrograms/kg bw/day (7).” The amount of cyanide in a 1,000 microgram cyanocobalamin is 20 micrograms.
+
+Table 1 contains some additional numbers regarding cyanide amounts in cyanocobalamin for comparison purposes.
+
+Table 1. Cyanide Content of Cyanocobalamin
+molecular weight of vitamin B12	1,355 g/mol
+molecular weight of cyanide	27 g/mol
+Percentage of cyanide in vitamin B12 by weight	2.0%
+Amount of cyanide in 1,000 micrograms of cyanocobalamin	20 micrograms
+Minimal Risk Level for oral cyanide4, a	0.05 mg/kg of body weight per day
+Minimal Risk Level for oral cyanide for 140 lb person	3,175 micrograms/day
+Percentage of Minimal Risk Level in 1,000 micrograms of cyanocobalamin	0.6%
+Lethal dose of cyanide5	0.5 to 3.0 mg/kg of body weight
+Lower end of lethal dose of cyanide for 140 lb person	31,750 micrograms
+Percentage of lethal dose in 1,000 micrograms of cyanocobalamin	0.06%
+aMinimal Risk Level do not assess cancer risk (6).
+In summary, the amount of cyanide in 1,000 micrograms of cyanocobalamin is about .6% of the amount that is thought to be the lower level that causes harm.
+
+References
+
+See Side Effects of B12 Supplements.
+
+Thank you, Ginny, for sending some of the research!
+
+This entry was posted on Wednesday, February 8th, 2012 at 6:03 pm and is filed under Vitamin B12.	You can follow any responses to this entry through the RSS 2.0 feed. You can skip to the end and leave a response. Pinging is currently not allowed.
+
+97 Responses to “Safety of Cyanide in Cyanocobalamin”
+Bruce Poon Says:	
+February 9th, 2012 at 2:51 am
+Not to mention that DEVA and others have started to provide B12 supplements based on methylcobalamin instead of cyanycobalamin.
+
+Great article. Cheers
+
+Jack Norris RD Says:	
+February 9th, 2012 at 9:21 am
+Bruce,
+
+Cyanocobalamin has an advantage over methyl- in that it is more stable and it’s generally thought that it requires much more methyl- from supplements to equal the same amount of cyanocobalamin. One person wrote me saying:
+
+“I’d been taking 500 mcg of methylcobalamin for years, not knowing that the B12 dosages so often cited (daily 25 – 100 mcg) are just for cyanocobalamin. So, about a week ago I started taking 1000-2000 mcg of methylcobalamin instead of just 500 mcg, and I feel a difference!”
+
+Of course, it could be a placebo. More info can be found here: http://veganhealth.org/b12/noncyanob12
+
+rick Says:	
+February 9th, 2012 at 6:54 am
+Given this info, doesn’t it seem reasonable to recommend an upper daily limit of cyanocobalamin in qualifying the “no upper limit” for B12?
+
+Jack Norris RD Says:	
+February 9th, 2012 at 9:18 am
+Rick,
+
+I never recommend more than 2,000 micrograms of cyanocobalamin per day which would be well short of any theoretical upper limit due to cyanide poisoning, I would think. I try not to be in the business of setting upper limits.
+
+Martin Says:	
+February 9th, 2012 at 1:40 pm
+Thank you. The new page will be very useful to link to when the topic comes up in online discussions.
+
+Jack Norris RD Says:	
+February 9th, 2012 at 4:50 pm
+From a reader:
+
+Thanks for your excellent post on this topic. I’d add that the cyanide is not a problem as long as kidney function is adequate to handle excretion appropriately. I understand as renal function declines, this may become an issue.
+
+Betty Says:	
+February 10th, 2012 at 1:34 pm
+What do you mean when you said that the fellow whom you quoted above could be experiencing a benefit from the placebo effect. I mean, really. To follow this logically, all supplements and drugs, too, should be fake, consisting of inexpensive, neutral substances: with sufficient faith, induced in us by advertising, we will experience relief from our symptoms.
+
+It looks to me as if cyano VS methyl is 6 of one and 1/2 a dozen of the other.
+
+Jack Norris RD Says:	
+February 10th, 2012 at 3:35 pm
+Betty,
+
+The placebo effect can be very powerful. That doesn’t mean that it can overcome any ailment or that drugs and supplements never work. I don’t know if, in this case, it was or it wasn’t.
+
+theveganscientist Says:	
+February 12th, 2012 at 10:43 pm
+Awhile ago, I compared the amount of cyanide from 25µg of cyanocobalamin to 2tbspoons of flax seeds based on data taken from this paper:
+
+http://www.sciencedirect.com/science/article/pii/S0308814601003132
+
+140ppm (µg/g) x 20g Flaxseed = 2800µg in 2Tbsp Flax Seed
+In 25µg Cyanocobalamin 25µg x 27g/mol/1355g/mol = 0.5µg
+
+So the amount in 2tablespoons of flax seed is over 5600x the amount in 25µg of cyanocobalamin. Funny, the same people who fear cyanocobalamin (raw foodists in particular) are the same people who make an effort to eat lots of flax seeds.
+
+Even at 1000µg dose, the cyanide in cyanocobalamin is 140x less than 2 tablespoons of flax seeds.
+
+theveganscientist Says:	
+February 12th, 2012 at 11:11 pm
+The various forms of B12 vitamers are really more or less a marketing ploy (IMO) as the non cyano B12’s sold in the US (methyl and dibencozide) are marketed as “superior” because they are the co-enzyme forms used in the body/
+
+They break down in the presence of water and/light light to produce hydroxocobalamin which is still bioactive, and is used in some USP injectable solutions, but is not a co-enzyme form, so doesn’t have the same marketing appeal. In the EU, you can find the hydoxocobalamin form for OTC use.
+
+I’m surprised some US companies haven’t started to sell the hydroxo form as an cyanide poisoning antidote as the cyano group has a very strong affinity for the corrin ring, which explains it’s stability. We used to boil it out of food matrices without any loss.
+
+Peter Says:	
+February 13th, 2012 at 1:52 am
+Hi Jack,
+
+A story about B12 supplementation on ABC Radio National today.
+I thought you might find this of use. Here is the link;
+http://www.abc.net.au/radionational/programs/healthreport/vitamin-b12-supplementation/3823160
+
+Eselpee Says:	
+February 19th, 2012 at 9:25 am
+What is the role that intestinal bacteria play in providing vitamin B12 to their host?
+
+What factors might be causing symptoms of vitamin B12 deficiency in people who regularly consume animal products?
+
+Jack Norris RD Says:	
+February 19th, 2012 at 12:41 pm
+Eselpee,
+
+> What is the role that intestinal bacteria play in providing vitamin B12 to their host?
+
+For humans, not much. Here is info on other animals: http://veganhealth.org/b12/animal
+
+> What factors might be causing symptoms of vitamin B12 deficiency in people who regularly consume animal products?
+
+A rare genetic inability to efficiently absorb or metabolize vitamin B12, and the inability to cleave vitamin B12 from proteins in animal foods as people age.
+
+Anne Says:	
+March 12th, 2012 at 3:47 pm
+The word Cyano does not mean Cyanide; the word Cyano means: Blue Green Algae or Blue Green Bacteria; Vitamin B12 is found in Blue Green Algae; Cyanide is found in Blue Green Algae; Kyanos is Greek for Blue Green in color…
+
+So Cyanide is a Cyano
+but NOT all Cyanos are Cyanide;
+so Cyano Cobalamin is not about Cyanide; Cyano Cobalamin is about Vitamin B12 which is derived from HydroxlyCobalamin
+
+the only reason Cyano Cobalamin MIGHT have trace Cyanide is because the activated charcoal they use to purify Hydroxyl cobalamin might have trace cyanide…not harmful in Vit. B12;
+
+Summary: Cyano means Cyano Blue Green Bacteria or Algae
+Cyano does not mean cyanide; Cyano means “Blue Green
+
+so the fear of cyandie in CyanoCobalamin if highly unfounded !
+
+Jack Norris RD Says:	
+March 12th, 2012 at 5:01 pm
+Anne,
+
+I appreciate you setting the record straight regarding the prefix “cyano”. But, all cyanocobalamin does include a cyanide component (or “ligand” as it’s technically called). As I mention in this post, it is only 2% of the cyanocobalamin by weight and except for in people who have cyanide metabolism issues, is toxicologically insignificant.
+
+Anne Says:	
+March 15th, 2012 at 5:23 am
+I’m surprised some US companies haven’t started to sell the hydroxo form as an cyanide poisoning antidote as the cyano group has a very strong affinity for the corrin ring, which explains it’s stability. We used to boil it out of food matrices without any loss.
+
+Anne’s comment: FDA approved Cyano-Kit 2007 is HydroxylCobalamin @ 5 mgs. given by a “professional only; this is used mostly for “smoke inhalation which has Cyanide”; this is why tobacco smokers are sometimes deficient in B12 because Tobacco Smoke creates Cyanide in the system…ar
+
+Anne Says:	
+March 15th, 2012 at 5:27 am
+But, all cyanocobalamin does include a cyanide component (or “ligand” as it’s technically called)…
+
+comment : I thought all cyanocobalamin contained a “Cyano” Ligand which is a Blue Green Bacteria Ligand which is derived when the Hydroxyl is pushed thru the Charcoal column
+
+questions: Does Cobalt contain natural cyanide ?
+does blue green alage (CYANO IS KYANOS FOR BLUE GREEN IN GREEK); Where does the Vitamin B12 get the Cyanide:
+a. from the hydroxyl B12? b. or from the Activated charcoal ?
+
+I know Cobalamin searches for and seeks out “cyanide…thnx!
+
+Anne Says:	
+March 15th, 2012 at 5:30 am
+summary: the prefix “Cyano” before another word does not mean Cyanide; Cyano is NOT an abbreviation or slang for Cyanide; CYANO means “The Nitrile Group; as “green plants; and my concern is: if people think Cyano cobalmin means cyanide cobalmin then people will not use the purifed form of vitmain B12 which is CYANO (Blue Green Bacteria) not cyanide; and then the anti nuttient people will have won because a Deficiency of Vitmain B12 can be a chronic prob.
+
+Anne Says:	
+March 15th, 2012 at 5:33 am
+PS from what I have read (I have been an OLV for 45 years !)
+
+Cyano (blue green bacteria) Cobalamin is almost identical in molecular structure to “Purifed Liver estracts (where Vitmain B122 was discvored in 1947); yet Cyano Cobalamin is Vegan!
+
+I recommend the Sublingual Vitmain B12; better uptake…imo !
+
+Jack Norris RD Says:	
+March 15th, 2012 at 9:06 am
+Anne,
+
+> Does Cobalt contain natural cyanide ?
+
+Cobalt is a mineral and thus it does not contain anything more than protons, neutrons, and electrons.
+
+I do not know how the cyanide in cyanocobalamin is added to the cobalamin, but by all accounts that I can find, it is indeed cyanide. If you have proof to the contrary, feel free to post it. Otherwise, I don’t think I’m going to post any further comments about it.
+
+Sharon Says:	
+April 3rd, 2012 at 4:47 pm
+I bought a bottle of B12 (Methylcobalamin) would your recommendations change vs cyanycobalamin?
+
+Jack Norris RD Says:	
+April 3rd, 2012 at 8:38 pm
+> I bought a bottle of B12 (Methylcobalamin) would your recommendations change vs cyanocobalamin?
+
+Yes, methylcobalamin should be taken at 1,000 micrograms per day. 1,000 micrograms = 1 mg.
+
+Sharon Says:	
+April 9th, 2012 at 12:35 pm
+Jack,
+
+I been following Dr. Mcdougall recommendations in regards to B12. Dr. Mcdougall recommendations are a 1 weekly dose of 500mcg per week of B12 of methylcobalamin because it has better absorption. When i came across your site your recommendations are totally different so i began to research and realize every doctor and dietitian has a different recommendation.
+
+Here are some of the recommendations i came across:
+
+1 dose of 500mcg per week
+1 dose of 500mcg per day
+1dose of 1000mcg per week
+1dose of 1000mcg twice a week
+1dose of 1000mcg per day
+1 dose of 60mcg per day that is included in a multivitamin(Dr. fuhrman gentle care
+
+I been feeling a bit disappointed and confuse. Why is it that most doctors and dietitians don’t agree in just one universal dose for B12?
+
+Thanks for your help.
+
+Jack Norris RD Says:	
+April 9th, 2012 at 4:25 pm
+Sharon,
+
+Some people are recommending doses to prevent overt B12 deficiency and others are recommending higher doses to minimize homocysteine and methylmalonic acid levels. I’m in the latter group. Here is a letter written to the vegan community that was signed by numerous dietitians, doctors, and organizations. If you want a suggestion that comes from a wide range, you might want to go with theirs:
+
+http://veganhealth.org/articles/everyvegan
+
+This article also appears on the UK Vegan Society website:
+
+http://www.vegansociety.com/lifestyle/nutrition/b12.aspx
+
+TheVeganScientist Says:	
+May 31st, 2012 at 6:39 pm
+In (bio) Chemistry the cyano prefix is used to name the CN- functional group, just as acetyl and formyl are used to identify the CH3(C=O)O- and H(C=O)O- functional groups respectively.
+
+Even though they too are derived from other words (Latin Aceto =Vinegar and formica = ant) t’s just a name for a particular functional group.
+
+In the case of cyanocobalamin, the CN ligand is bound to the Cobalt atom in the corrin ring. The only difference, structurally between the various vitamers is the ligand bound to the central Cobalt atom.
+
+When Cyanocobalamin is converted to methylcobalamin and cobamide in the body, the CN group gets knocked out, but most likely it will find an iron atom to cling to somewhere and at such low exposure limits won’t have any negative affects on the body.
+
+TheVeganScientist Says:	
+May 31st, 2012 at 6:49 pm
+btw, The Cyanide is added to the broth at the end fermentation to convert all the various vitamers into the most stable vitamer, cyanocobalamin. This makes it easier to extract,
+
+This is done strictly for stability purposes. Like I said previously, we used to boil it out of food matrices.
+
+Tracie Says:	
+August 28th, 2012 at 7:51 pm
+I was sure I read somewhere on your site about extremely different doses for b12 depending if one is taking methylcobalamin vs cyanocobalamin. I would think this would be an important thing to note, but I’m having a very difficult information finding it anywhere on the web.
+
+Jack Norris RD Says:	
+August 28th, 2012 at 9:32 pm
+Tracie,
+
+I don’t have official recommendations for methylcobalamin, only cyanocobalamin, but there is more info on other forms here:
+
+http://veganhealth.org/b12/noncyanob12
+
+And I just updated my recommendations to indicate that I’m only referring to cyanocobalamin:
+
+http://veganhealth.org/articles/dailyrecs
+
+Anne Says:	
+August 29th, 2012 at 4:16 am
+hello again
+
+I understand the Cynadie is formed when the basic Vitamin B12 (grown in a lab with special bacteria) is “pushed throught the charcoal column” to Purify the Vitamin B12″ somehow the charcoal creates Cyandie reside; the cynadie is not “added !
+
+the Cynadie is a natural process of manufacturaing Vit. B12…!
+
+ps did you know some people consider “cyanide” to be “a nutrients or a medicine” if used in proper amounts; this is because Cyandie has been shown to destory some germs…
+
+there are many types of cyandie; the cyandie found in peach ptis; flax seeds is not the type of Cyanide which is dangerrous!
+
+]summary if you do not take some type of Vitamin B12; you can come down with “pseudo alzhmers and SCD (sub acute degenration of the spinal cord
+
+so i would rish a little cyanide to prevent aformention diseases!
+
+so I would risk a little cyandie to prevent SCD (sub acute degenration of the spinal cord ) because SDC is terrible AND VITAMIN B12 IS THE ONLY KNOWN CURE FOR SCD…thnx!
+
+Tracie Says:	
+August 29th, 2012 at 5:38 pm
+Thanks!
+
+I finally found the page I was thinking of @ http://www.theveganrd.com/2010/11/recommended-supplements-for-vegans.html. She has your site listed on her blogroll. Quite a search to refind it tho. Sorry about my bad editing in my above post but looks like you sorted that out.
+
+theveganscientist Says:	
+September 1st, 2012 at 9:27 am
+Anne, I believe you are confusing the steps in the process. Cyanide, albeit in very minute quantities, is added to the broth and THEN the broth is filtered. The charcoal is a standard method of purification similar to a britta filter to remove particulates(most likely the biomass itself). Charcoal is relatively inert and would require extreme conditions to produce cyanide, which is a reductive product and not something that readily forms in an oxygen rich environment under typical temperatures & pressures (thankfully)
+
+Wikipedia has a good description of the process:
+http://en.wikipedia.org/wiki/Cyanocobalamin#Production
+
+“Fermentation by a variety of microorganisms gives a mixture of methyl-, hydroxo-, and adenosylcobalamin. These compounds are converted to cyanocobalamin by addition of potassium cyanide in the presence of sodium nitrite and heat.”
+
+theveganscientist Says:	
+September 1st, 2012 at 9:58 am
+Cyanide has been shown to kill some germs for the same reason it kills humans:
+It binds to Iron containing enzymes in a cell, specifically Cytochrome-C Oxidase
+http://en.wikipedia.org/wiki/Cytochrome_c_oxidase.
+
+This does not make it a medicine and was a dangerous form of quackery in the 70s & 80s that resulted in several deaths.
+
+http://ajcn.nutrition.org/content/32/5/1121.full.pdf
+
+http://www.cancer.org/Treatment/TreatmentsandSideEffects/ComplementaryandAlternativeMedicine/PharmacologicalandBiologicalTreatment/laetrile
+
+Cyanide is cyanide. When it is a free ion it behaves the same irrespective of its source and in sufficient quantities can kill. There are several deaths each year (mostly children) from accidental cyanide poisoning from eating enough uncooked foods that contain cyanogenic glycosides. For example:
+
+http://www.chinadaily.com.cn/english/doc/2005-03/10/content_423641.htm
+
+Cyanogenic glycocides are thought to be a protective mechanism of a plant against animals eating its seeds. The cyanide is only released when the seed is crushed and the two parts (enzyme + glycoside), which are normally separated in the cell, are brought together. Cooking destroys the enzyme.
+
+In some foods, there are some metal ions (especially iron) around that the free cyanide will bind to before it gets to cells in the body, which can deactivate some of it. Once it is deactivated it is far less toxic, but also relatively inert and offers no medical benefit:
+http://en.wikipedia.org/wiki/Prussian_blue#Safety
+
+Most of the make believe around “natural” is from people who don’t want to believe nature is indifferent to the human life and kills as much as it sustains.
+
+rick Says:	
+September 2nd, 2012 at 6:11 am
+So cyanide is added to (a) kill bacteria, and (b) stabilize the b12 molecule. Is this correct? The stabilization is important to help extract the b12 in the production process.
+
+Does this stabilization also serve to increase the shelf life? In other words, does cyanocobalamin have a longer shelf life than methylcobalamin?
+
+Is that why recommendations for methylcobalamin are sometimes higher than for cyanocobalamin, to factor in that the users will be administering a significantly lower dose of the methylcobalamin by the time that they consume it than when it was manufactured, whereas the cyanocobalamin dose will be relatively higher upon administration?
+
+Jack Norris RD Says:	
+September 2nd, 2012 at 4:55 pm
+Rick,
+
+> In other words, does cyanocobalamin have a longer shelf life than methylcobalamin?
+
+That’s my understanding.
+
+> Is that why recommendations for methylcobalamin are sometimes higher than for cyanocobalamin,
+
+Yes.
+
+Anne Says:	
+November 27th, 2012 at 10:13 am
+NORI SEAWEED: The purple laver contained five types of biologically active vitamin B12 compounds (cyano-, hydroxo-, sulfito-, adenosyl- and methylcobalamin), in which the vitamin B12 coezymes (adenosyl- and methylcobalamin) comprised about 60 % of the total vitamin B12. http://www.nih.com
+
+So this proves Cyano Cobalamin (Vitamin B12) is in nature…”
+ps I think you misunderstood me Jack: i said there is no Cyanide in CyanoCobalamin because Cyano = Nitriles which are plants usually blue green algae or bacteria; I did not advocate natrual cyanide synthetic cyanide or any other type !!
+
+Jack Norris RD Says:	
+November 27th, 2012 at 10:20 am
+Anne,
+
+Your link doesn’t go to anything about nori. It is possible that cyanocobalamin is in nature, but it does have a cyanide molecule attached – it doesn’t matter what the term “cyano” means. Also, I’m not putting through most of your comments as they are simply restatements of the same thing over and over again.
+
+Here is a diagram of cyanocobalamin: http://en.wikipedia.org/wiki/Cyanocobalamin The cyanide molecule is the CN attached to the cobalt atom in between the 4 nitrogens towards the top, middle of the diagram. And here you can see that CN is cyanide: http://en.wikipedia.org/wiki/Cyanide
+
+I’m not going to put through any further comments arguing that cyanocobalamin doesn’t contain cyanide.
+
+Jack Norris RD Says:	
+November 27th, 2012 at 10:40 am
+For anyone who might be interested, Anne sent me this link off list showing that the purple laver had cyanocobalamin: http://www.ncbi.nlm.nih.gov/pubmed/11430774
+
+Anne Says:	
+November 27th, 2012 at 1:23 pm
+http://www.theveganrd.com/2010/11/recommended-supplements-for-vegans.html. thanks Tracie !!!
+
+Anne Says:	
+November 29th, 2012 at 7:02 am
+everything originates with Green Blue algae; this i why Clams have high Vitamin B12; they thrive on Sea Algae!
+clams have the most B12 ! (USDA Clams Nutrient Database
+
+theveganscientist Says:	
+November 29th, 2012 at 11:11 am
+Most likely it’s b/c clams sit at the bottom where poop and other animals solids end up. If you want “natural b12” you can make poop extracts. I’d rather take a 2cent vitamin supplement.
+
+noname Says:	
+December 11th, 2012 at 3:14 pm
+can anyone tell me? If I put potassium cyanide 800 mg. to the vitamin B12 ( in the energy drink ) who is win ?
+
+Jack Norris RD Says:	
+December 11th, 2012 at 4:23 pm
+noname,
+
+No idea what you mean.
+
+Livia Says:	
+February 17th, 2013 at 8:53 am
+“1.4 and 5.4 micrograms/kg bw/day”
+
+Does this information also apply for infants?
+Is there any evidence infants should rather take methylcobalamin instead of cyano?
+
+Jack Norris RD Says:	
+February 17th, 2013 at 10:24 am
+Livia,
+
+Infants should be getting their B12 through breast milk or formula, especially the first 6 months. Here are my recommendations for older than 6 months:
+
+http://veganhealth.org/articles/dailyrecs
+
+> Is there any evidence infants should rather take methylcobalamin instead of cyano?
+
+I’ve never seen any.
+
+jriley Says:	
+February 18th, 2013 at 10:27 am
+From the info I get in this article cyanide is cyanide (shrinks ur brain)why does the stuff have to be present in B12. Have U folks heard of methylcobalamin. Not mentioned above.
+
+Jack Norris RD Says:	
+February 18th, 2013 at 2:00 pm
+jriley,
+
+We discuss methylcobalamin on this site *all the time*! Example: http://jacknorrisrd.com/?p=3383
+
+BTW, did you mean to make your email address public? If not, let me know and I’ll remove this comment.
+
+vsheline Says:	
+April 2nd, 2013 at 6:58 pm
+Costco now sells economical Kirkland brand B-12: cherry flavored sublingual tablets (300 per bottle), Methylcobalamin form, 5000 mcg.
+
+On the bottle it says, “Suggested Use: Dissolve one tablet daily, under tongue for 30 seconds, then swallow.”
+
+Could taking that much lead to any problems?
+
+Jack Norris RD Says:	
+April 2nd, 2013 at 8:03 pm
+vsheline,
+
+I am not aware of 5,000 micrograms a day of methylcobalamin causing problems. Perhaps you should start out breaking the tablet in half. That way, if you have a rare reaction, it will be to less of a dose.
+
+vsheline Says:	
+April 2nd, 2013 at 7:08 pm
+The label on the bottle of Kirkland brand B-12 does include the following warning:
+
+“WARNING: Pregnant or nursing women, individuals taking medication(s), or persons who have a health condition should consult their physician before using this product. KEEP OUT OF REACH OF CHILDREN. Store at 15 to 30 C (59 to 86 F).”
+
+Yaffa Barelkovsky Says:	
+December 8th, 2013 at 4:02 pm
+Dear Jack Norris,
+I am a 75 year old woman, suffering from neuropathy. Quite severe. From your research – does it seem that ANY form of vit B-12 could be significantly helpful, if so: which one, which dose & how many times per day. Do you have an opinion or experience with using the treatment suggested by a company called:
+neuropathytreatmentgroup.com?
+Thanks and take care,
+Yaffa Barelkovsky.
+
+Jack Norris RD Says:	
+December 10th, 2013 at 9:16 am
+Yaffa,
+
+I’m sorry to hear about your neuropathy. It sounds like you need to see a doctor about this. If your B12 levels are not deficient then B12 is probably not going to help. People with severe B12 deficiencies have succeeded at raising them in clinical trials using 1,000 micrograms two times per day of cyanocobalamin.
+
+Anne Says:	
+December 15th, 2013 at 7:01 am
+to Jack Noris: SCD is a “disease of deficiency of Vit. B12; my comment is: (Sub-Acute degeneration of the Spine)
+CN- is Nitrile where as -CN is Cynaide; recheck your diagram
+Subacute combined degeneration of spinal cord, also known as Lichtheim’s disease,[1][2] refers to degeneration of the posterior and lateral columns of the spinal cord as a result of vitamin B12 deficiency (most common), copper deficiency[3] or vitamin E deficiency[citation needed]. It is usually associated with pernicious anemia.
+Patients present with weakness of legs, arms, trunk, tingling and numbness that progressively worsens. Vision changes and change of mental state may also be present. Bilateral spastic paresis may develop and pressure, vibration and touch sense are diminished. A positive Babinski sign may be seen.[citation needed] Prolonged deficiency of vitamin B12 leads to irreversible nervous system damage. HIV-associated vacuolar myelopathy can present with a similar pattern of dorsal column and corticospinal tract demyelination.[citation needed]
+
+If someone is deficient in vitamin B12 and folic acid, the vitamin B12 deficiency must be treated first to avoid precipitating subacute combined degeneration of the cord (giving folic acid first will turn the remaining B12 into methylcobalamin which will not be able to participate in fatty acid metabolism).
+
+Administration of nitrous oxide anesthesia can precipitate subacute combined degeneration in people with subclinical vitamin B12 deficiency, while chronic nitrous oxide exposure can cause it even in persons with normal B12 levels.
+
+Tests[edit]Serum B12, Malonic Acid, Methylmalonic Acid, Schilling Test, Complete Blood Count- looking for megaloblastic anemia if there is also folic acid deficiency or macrocytic anemia
+
+Treatment[edit]Therapy with vitamin B12 results in partial to full recovery, depending on the duration and extent of neurodegeneration.
+
+rkg Says:	
+January 9th, 2014 at 9:33 am
+Have you seen this biochemistry of cyano /cobalamin (links below) ? Your feedback ?
+
+http://www.yourhormones.com/faq/nutrition/cyanocobalamin.html
+
+http://www.scribd.com/doc/38186617/Nitrile-containing-natural-products-F-F-Fleming-Nat-Prod-Rep-1999-16-597-606-DOI-10-1039-A804370A-http-dx-doi-org-10-1039-A804370A
+
+Jack Norris RD Says:	
+January 9th, 2014 at 2:39 pm
+rkg,
+
+The first link is what I say in my post above. Not sure why you sent the second link – I took a look but didn’t read it.
+
+Anne Says:	
+January 18th, 2014 at 6:25 am
+Hi Jack: thanks for printing my B12 SCD post; about how Vit. B12 prevents SCD
+
+My comment is to the lady about “Infants and cyanocobalamin”; I have read Infants shoudl Not get CyanoCobalamin; instead should get Methyl or other type; I do not know why this is: I can only guess “Vitamin B12 chelates Cyanide”
+this is why firefighters carry a “Vitamin B12 Hydroxyl Kit” to administer to people if they get “smoke inhalation”; smoke produces Cyanide; Vit. B12 chelates CN.
+
+so perhaps the Cyanocobalamin would chelate the infants system too much…
+Summary; Infants are the one group of people who shoould not use “CyanoCobalamin”…discuss this with your pediatricain. thanku…Anne usa
+
+Jack Norris RD Says:	
+January 19th, 2014 at 7:41 pm
+Anne,
+
+I haven’t seen anything in the scientific literature saying that infants shouldn’t receive cyano. There were some cases in which B12 deficient infants had tremors upon receiving large amounts of cyano-, but the researchers thought that was due to the B12 deficiency correcting itself.
+
+kit Says:	
+March 17th, 2014 at 12:14 pm
+I have been taking 2000mcg of CyanoCobalamin for the last 27 years. I have neuropathy in the legs, arms, lower back and now my fingers occasionally. At night, when relaxing, my body pretty much tingles all over. I get muscle cramps in my feet and multiple little muscle twitches in my calves on occasion. I have a sore tongue and sometimes tingly lips. When all this came about I also was fatigued (put on low dose thyroid meds and now feel great), my fasting blood sugar was 101 (went on metformin), showed allergies when I have never had any before and now slight unnoticed asthma (doctor diagnosed trying to figure everything out). Multiple brain MRIs were normal, lower back and neck MRI mostly normal. EMGs showed L5/S1 irritation. Now I notice that I catch my toes off and on. Oh I have dry eyes too. For a year I took the other type of B12 and the feet burning, numbness and pin and needles improved at the end of the time. Now I have been back on the CyanoCobalamin for about 6 months and it is all back big time, even in my fingers. I feel like my whole body is revolting. All I get from doctors is it is ideopathic neuropathy. No one wants to try to find out the cause. Could this be along term affect of the B12 and its cyanide component?
+
+Jack Norris RD Says:	
+March 17th, 2014 at 6:16 pm
+kit,
+
+> Could this be along term affect of the B12 and its cyanide component?
+
+I don’t know. I’m sorry to hear about your difficulties. Perhaps you should go back to one of the other forms of vitamin B12 since it seemed to be working for you.
+
+Kit Says:	
+March 18th, 2014 at 5:58 am
+I have now that I know the difference between the different b12. I have found the cynicibalamin and methycolbalamin. But that cyanide stuff is used in most everything I find with vitamins added including food.
+
+Jack Norris RD Says:	
+March 18th, 2014 at 9:33 pm
+Kit,
+
+http://en.wikipedia.org/wiki/Cyanide_poisoning
+
+You might want to get tested for cyanide poisoning. If you don’t have cyanide poisoning, then cyanocobalamin shouldn’t do any harm to you.
+
+Tim Says:	
+May 1st, 2014 at 9:05 am
+Kit,
+
+I have had chronic cyanide poisoning among other issues. I believe the hydroxycobalamin form of vitamin B12 combines with cyanide to form cyanocobalamin which can pass through safely. Which is why you might get an intravenous dose of hydroxycobalamin for acute cyanide exposure.
+
+What are you eating? The prime food suspects are things you eat every day or week. For me it was mainly coffee, almonds, flax seeds, and tapioca (boba) combined with little or no shellfish, eggs, or dairy. There were also environmental issues like water/air/food quality and office/household products.
+
+You might find a doctor that can run an Asyra test on you. If might give you very helpful clues as to what is going on.
+
+Dee Says:	
+September 10th, 2014 at 7:47 am
+Hi Jack
+One of the commenters wrote: “In the EU, you can find the hydoxocobalamin form for OTC use.”
+I’d look on veganhealth.org myself, since you may be tiring of this thread, but I don’t see a search field 🙂
+Thanks
+Dee
+
+Jack Norris RD Says:	
+September 10th, 2014 at 8:17 am
+Dee,
+
+There is a custom search bar towards the top of every page (in the center, under the social media links) on VeganHealth.org. But there isn’t anything on the site about OTC hydroxocobalamin; it’s not something I know much about.
+
+Christopher Says:	
+October 21st, 2014 at 4:44 pm
+Anne,
+
+I’ve no idea how you don’t understand that Cyanide is indeed in Cyanocobalamin…look at a diagram of it; it is clearly shown…
+
+I most recently re-learned Stoichiometry in my AP Chemistry class and out of a whim picked a random pill bottle (B-12) to calculate the amount of certain chemicals in it, and I was quite surprised to see the prefix “Cyano-” in a VITAMIN of all things. I, of course, found only 14 (I believe) molecules of CN- per one formula unit of Cyanocobalamin. Which is far beyond all worry of poisoning. I now take it daily; partly for the thrill of consuming Cyanide and partly for the health benefits of B-12.
+
+Jack,
+
+Very interesting and enlightening article as well as comments; although I do apologize that you may be rather bored of this never ending thread…
+
+Karl Baba Says:	
+January 9th, 2015 at 8:15 pm
+There are common genetic polymorphisms, such as MTR and MTRR that burn up B-12 much quicker and benefit from getting the Methylcobalamin form. This emerging science should be considered when recommending the form of B-12 that needs to be converted by the body when the people who need it most often are genetically impaired in making it.
+
+Jack Norris RD Says:	
+January 10th, 2015 at 12:02 pm
+Karl,
+
+Do you have any evidence on humans that this is true? And wouldn’t it be reflected in someone’s serum B12 levels if they are burning up their B12? I have not seen evidence that people with these polymorphisms require more B12 or require methylcobalamin.
+
+Karl Baba Says:	
+January 10th, 2015 at 12:13 pm
+“When the MTR A2756G defect is present, MTR is always on, using up methyl-B12 faster than MTRR can regenerate it. The consequence is deficient methyl-B12. B12 blood levels may be normal, but as levels of methyl-B12 will be low, normal B12 physiology cannot be carried out. Homocysteine levels will typically be elevated.”
+
+From a Cardiac Doc researching this stuff
+
+http://www.heartfixer.com/AMRI-Nutrigenomics.htm#MTR:%A0%20Methionine%20Synthase
+
+Here are the pubmed references to it
+
+http://www.ncbi.nlm.nih.gov/pubmed?LinkName=gene_pubmed&from_uid=4548
+
+Jack Norris RD Says:	
+January 11th, 2015 at 10:27 am
+Karl,
+
+That’s really not what I asked for and I’m not going to spend the hours it would take to read and understand all that (or maybe it wouldn’t take that long – I’m not going to try to find out). A study showing that people with those genetic polymorphisms have depleted B12 levels would be a fairly straightforward item to provide.
+
+TheVeganScientist Says:	
+January 31st, 2015 at 11:14 am
+Jack, it just means that you have a circular process with B12 (called a ping pong reaction:
+
+1) 5-N-Methyl Tetrahydrofolate is converted to regular Tetrahydrofolate, while the Methyl group is transferred to a non-methylated-B12 (so it becomes Methylcobalamin), so B12 acts like a “methyl holder” for the next reaction below.
+
+Homocysteine takes the methyl group from the methyl-B12 and makes methionine, regenerating the non-methyl B12. And this goes around and around.
+
+But Karl’s interpretation is without merit, because taking methyl cobalamin will do nothing to help someone with altered Methionine synthase reductase (MTR) metabolism, unless the Me-B12is directly injected at high amounts into the blood stream.
+
+Methyl cobalamin taken orally will convert to hydroxocobalamin. But if anyone is really interested whether or not they have defective MTRR gene get your homocysteine level checked. People with this kind of genetic abnormality will have horribly high homocysteine levels.
+
+This is one of those “making a mountain out of a molehill” examples. I bet this doctor is probably writing a book called “The Methylcobalamin Miracle” (every supplement book, as a “Miracle” book associated with it.
+
+Note however, it isn’t the B12 levels that are really the problem, because they are just cofactors. It is overactive MTR, you are better off taking supplements with methyl donors (like Choline, and carnitine) than Methyl cobalamin which in the reaction is really a methyl donor. It is just a holder of methyl groups it does not donate them (remember it originally borrowed it from 5-N-methyl folate). Choline and carnitine donate them.
+
+Choline and Carnitine are the best methyl donors for this reaction.
+
+Karl Baba Says:	
+February 2nd, 2015 at 12:38 am
+I have to disagree with VeganScientist on both theoretical and practically grounds.
+Practically, I have been tested and have two homozygous (+/+) MTRR mutations and a heterozygous (+/1) MTR A2756G mutation. I have recently tested my homocysteine which is well within the normal range. (I do take folate and Methylcobalamin daily though)
+
+I also can nowhere find anything that says “Methyl cobalamin taken orally will convert to hydroxocobalamin.” Everywhere it says the opposite
+
+“Hydroxocobalamin is actually a precursor of two cofactors or vitamins (Vitamin B12 and Methylcobalamin) which are involved in various biological systems in man. Vitamin B12 is required for the conversion of methylmalonate to succinate. Deficiency of this enzyme could therefore interfere with the production of lipoprotein in myelin sheath tissue and so give rise to neurological lesions. The second cofactor, Methylcobalamin, is necessary for the conversion of homocysteine to methionine which is essential for the metabolism of folic acid. ”
+
+from: http://www.druglib.com/activeingredient/hydroxocobalamin/
+
+“Hydroxocobalamin is another inactive form of vitamin B12. Hydroxocobalamin has similar efficacy as cyanocobalamin since it is also converted to active methylcobalamin in-vivo (Figure 1).
+
+from http://centraldrugsrx.com/doctorblog/comments/brief-comparison-of-the-three-formulations-of-vitamin-b12
+
+Hydroxocobalamin is often given to people with COMT polymorphisms since it needs methyl donors rather than acting as a methyl donors and thus is safer for people genetically vulnerable to excess methyl groups (COMT +/+ people)
+
+From: http://www.heartfixer.com/AMRI-Nutrigenomics.htm
+
+“Conversely, if you are COMT (+/+), we know that you have an excess of methyl groups floating around. We will give you hydroxy-B12, expecting it to combine with the methyl groups available to form the methyl-B12 you need (without ODing you with too many free methyl groups). “
+
+Jack Norris RD Says:	
+February 2nd, 2015 at 11:22 pm
+Karl,
+
+You might be interested in these two pages:
+
+http://veganhealth.org/b12/mol
+http://veganhealth.org/b12/coenz
+
+TheVeganScientist Says:	
+February 3rd, 2015 at 8:51 pm
+Carl, all of those quotes above are what happens IN THE CELL, not what form B12 is in by the time it arrives in the cell via the GI tract–>bloodstream. The CH3-Co bond in Methylcobalamin (Me-Cbl) is not stable, which is also why it makes such a good catalyst/cofactor. If the bond was strong it wouldn’t accept/donate the CH3 group so easily and make a crappy cofactor. The CH3-Co bond readily breaks in the presence, of light, of oxygen, of Chloride and Iron, so when it hits the gut where there is plenty of HCl, NaCl O2 and enough Fe, it converts to Hydroxocobalamin (HO-Cbl) or its acid form AquoCobalamin (H2O-CBl). This is why I specifically state ORAL administration. It’s instability is also why you find the Hydroxocobalamin predominantly in food and not the Me-CbL form, except maybe in fresh meat (in the cell)
+
+(CF: https://en.wikipedia.org/wiki/ADME).
+
+The methyl group once it’s removed from the Cobalamin core is oxidized to Formaldehyde. This is why orally ingested Methylcobalamin is not really any better or worse than any other form of Cobalamin. It’s the Cobalamin core that does the work. The ligands are just dance partners, really. The CN ligand is most stable, so we used that in supplements (for shelf life reasons). Supplement companies started offering the Methyl and cobamide vitamers, strictly for profit sake. They work just as good, (because they ultimately turn into hydroxocobalamin by the time they get to the cells) and people will 5x the price for them, Total win for the supplement industry.
+
+In the cell, yeah it’s the Methyl groups that bounce around from molecule to molecule and get “used” up. B12 is just a holder of the Methyl groups. It doesn’t get “Used up” in the reaction. It’s like the guy handing out the fliers in front of the grocery store. You only need a few of them, but you need thousands of fliers.
+
+Now, typically when ~1.5mg of Any cobalamin is ingested in a healthy adult, you’ll get a peak plasma of about 600pg/mL which is about 442 *picomolar* (10E-12). Note: since Me-CbL has a 1:1 molar ratio of CH3 to CbL a 1.5mg dose will also yield about 442picomolar in the very best conditions.
+
+The Homocysteine needs 1 methyl group to make methionine, and *normal* blood levels are around 10µM (10E-6), so a 1.5mg dose of Methylcobalamin even if it were all intact as it traversed the gut, you would still need 22,000x more Methyl groups than methylcobalamin can provide. So it’s really crappy as a methyl donor.
+
+Methyl Cobalmin’s biological function is not to be a source of methyl groups, but a catalyst to help distribute methyl groups from the pool created by various other molecules (carnitine, betaine, choline, TMA, etc…) (like the flier guy, who pairs customers with fliers. Without him flier/customer pairs would be much less, but the flier guy himself doesn’t pair with a customer or a flier, he just distributes gets customers paired with fliers.
+
+When researcher’s study different vitamers of B12, they aren’t keeping track of their form in the blood, but rather the biological activity. So biological differences are more likely related to absorption, metabolism, and elimination differences, rather than outright activity, because they aren’t keeping track of the ligand on the cobalamin, just what ligand it entered the body with.
+
+You would have to isotopically label the Methyl group and trace it through the body to identify which forms were doing what, because you can’t isotopically label Cobalt to get that info, because cobalt is changing partners, (but it’s still dancing).
+
+TheVeganScientist Says:	
+February 3rd, 2015 at 9:07 pm
+Karl, btw, I looked up the Heartfixer guy. He doesn’t have any peer reviewed papers relating to stuff on his webpage, but he does have a book and participates in dubious practices like UV blood irradiation and EDTA chelation therapy (while good for acute heavy metal poisoning, is not useful for non-poisoned people and has lead to death via cardiac arrest from hypocalcaemia)
+
+Doctors like to be all sciency on the internet to get more customers, more speaking engagements, sell books with their 1/2 baked theories that don’t have data to back it and would never pass peer review. Some even have their own food products, meal plans, motivational videos and more!
+
+I think Doctor Oz and Doctor Mercola are laughing all the way to the bank with the stuff they sell. I’m sure a lot of these doctors help people, but I would be very skeptical of their claims.
+
+This actually sounds like he is taking the piss out of people with his
+
+” Platinum Electrode Foot Bath Body Cleanse $60 ($550 for 10)”
+
+Karl Baba Says:	
+February 3rd, 2015 at 10:32 pm
+The Heart Fixer guy isn’t claiming to have done his own research but has based his treatments on Dr. Amy Yasko’s work. What he does do is test his patients at every step of the way so there is some value is seeing how things clinically pan out.
+It certainly sounds like you know what you are talking about but you aren’t providing links for what you are saying and I have issues here and there.
+
+Can you provide a credible reference to show the role of Hydroxocobalamin in the cells? The Wiki for OHCbl says “In the serum, OHCbl and CNCbl are believed to function as storage or transport forms of the molecule, whereas methylcobalamin and 5-deoxyadenosylcobalamin are the active forms of the coenzyme required for cell growth and replication”
+
+I think oral administration is a poor way to get B-12 unless you count Sublingual tabs which don’t get digested. Not expensive either, I just bought 60 5mg sublingual Methylcobalamin tabs from Swansonvitamins for under $4 and I know they works since my Mom went from testing clinically deficient in B-12 to 1500 Pg/ml.
+
+You say it doesn’t matter which form of cobalamin one takes but other places I’m told that there’s a catch. OHCbl needs cofactors to be converted into active Methylcobalamin. If Glutathione is depleted, for intense, the OHCbl is going to be less effective as evidenced by this study
+
+[Abstract replaced with link: http://www.ncbi.nlm.nih.gov/pubmed/21121936]
+
+The CFS people are tuned into B-12 issues. Some interesting discussions here
+
+http://forums.phoenixrising.me/index.php?threads/why-hydroxycbl-might-not-work.14028/#post-232705
+
+And
+
+http://forums.phoenixrising.me/index.php?threads/methylcobalamin-vs-hydroxocobalamin.22173/
+
+Anne Says:	
+February 4th, 2015 at 6:05 am
+so when it hits the gut where there is plenty of HCl, NaCl O2 and enough Fe, it converts to Hydroxocobalamin (HO-Cbl) or its acid form AquoCobalamin (H2O-CBl).
+
+Wikipedia says: AquoCobalamin is “Vitamin B12 with the 6th bond as “water”!!!
+
+theveganscientist Says:	
+February 6th, 2015 at 3:11 pm
+Karl,
+This is a good example of why physicians (or non-research scientists) should never try to interpret research papers, especially from the abstract alone.
+
+Some Highlights of this paper that escape the abstract:
+
+1). This is a rat study and not a human study.
+2). This is not even a living rat study.
+
+“A portion of rat cortex or liver tissues (0.5 g) were homogenized in 10 mL of 100 mM
+potassium phosphate buffer (pH 7.2) by a glass-Teflon homogenizer with an ice-cold jacket.
+After centrifugation (100,000 × g) of tissue homogenates at 4°C for 1 h, the supernatant was
+used for determination of MS activity and measurement of intracellular GSH level.”
+
+“The reaction mixture contained: 100 mmol/L potassium
+phosphate buffer (pH 7.2), 500 μM D,L-HCY, 152 μM SAM, 2 mM titanium citrate, 0.1 μCi
+[methyl-14C] methyltetrahydrofolate, 10 μM cobalamin and 380 μl of tissue supernatant in a
+total volume of 500 μL.”
+
+The resarch pumped a crapload of ethanol, 36% of daily calories (horribly cruel) for 4 weeks.
+
+The rats were Killed, the livers and brains taken out homogenized in a blender type thing.
+
+Then 380uL of the tissue smoothie was spiked with 10UM of different cobalamins.
+
+In my previous post, I said normal plasma levels after a large dose is ~450 *picomolar* so they researchers dumped 1 million times that directly into homogenized tissue of half a mL.
+
+Of course methylcobalamin is a good methyl donor when you spike a million times dose directly into homogenized tissue.
+
+This is like taking close to 2lbs of methyl-B12 and injecting it into your liver or brain.
+
+The purpose of this research was not any way shape or form to demonstrate different exogenous forms administrered into a live mammal will increase MST activity
+
+The purpose of the research was to understand cellular processes better under conditions of reduced GSH activity.
+
+TheVeganScientist Says:	
+February 6th, 2015 at 3:45 pm
+Oh, I am revising my calculations because I forgot the 500µL dilution factor. I was on the train texting the original, sorry.
+
+10µM/500µL = 20000pM.Still this is 45x plasma levels directly injected into a homogenized liver tissue, bypassing normal metabolism, cellular membranes, disrupting cellular processes, working directly with the enzymes themselves at dosages impossible to achieve in natural free living conditions.
+
+The end result of this kind of research is find some upstream enzyme, cofactor, etc… that causes the etiology of some disease and find a molecule to block it, or find a target that will upregulate/downregulate a process that will have an beneficial effect, then find a molecule that can induce that preferred state.
+
+Nothing can be concluded about supplementation from this research. In introduction/background, the researchers explain some of the cellular processes they are investigating. They do not say or imply anything about their work being anyway related to vitamin supplementation or that their work can be extrapolated toward therapeutic use in any animal by any route of administration.
+
+Karl Baba Says:	
+February 6th, 2015 at 4:14 pm
+Thanks
+The Fact remains that Cyanocobalamin requires cofactors to be converted to active Methylcobalamin. Are we so sure that those cofactors are always present in the required amounts or could that be part of the mechanism of deficiency?
+
+Jack Norris RD Says:	
+February 6th, 2015 at 4:20 pm
+Karl,
+
+> The Fact remains that Cyanocobalamin requires cofactors to be converted to active Methylcobalamin.
+
+I’m not sure of that as I don’t know the biochemical pathways, though I imagine TheVeganScientist does. But isn’t “co-factor” just another way of saying “vitamins and/or minerals”? And if so, if there isn’t enough in the body to allow for the conversion of cyano- to methyl-, then you’d have a deficiency of that other vitamin or mineral, not, technically, a deficiency of B12. So the focus should be on solving the other deficiency.
+
+Karl Baba Says:	
+February 6th, 2015 at 6:54 pm
+The conversion and cycle take ATP, glutathione, and Sam-e as far as I can tell and probably the properly functioning enzymes to make the conversions.
+One deficiency may cause another but when you can supply a needed nutrient that doesn’t need conversion, it can kick start the cycle of creating the others or at least fulfill it’s role, which is what a consider to be a merit of going straight to Methylcobalamin, you know it’s not going to be held up by a deficiency you might not know or be aware of. After all, testing glutathione and Sam-e levels is fairly rare
+
+Jack Norris RD Says:	
+February 7th, 2015 at 7:43 pm
+Karl,
+
+Many years ago, I put together a chart of the Methionine-Homocysteine-Folate-B12 Cycle here: http://veganhealth.org/b12/cycle. It hadn’t occurred to me that the way the body converts cyanocobalamin to methylcobalamin is by entering the cycle in the position of “cobalamin” in the chart. I had assumed it must come from outside of that cycle, though right now it’s not making sense to me why that would be, nor is it making sense why the body would ever need an exogenous source of B12 for this pathway since that methylcobalamin –> cobalamin –> methylcobalamin looks like a continual loop as long as there is S-adenosylmethionine or folate. Perhaps that’s why folate can mask a B12 deficiency and the need for vitamin B12 for this pathway is only conditional on not having plenty of folate (or S-adenosylmethionine), while the need for vitamin B12 in the S-adenosylcobalamin co-enzyme function is the only function for which B12 is absolutely essential.
+
+Karl Baba Says:	
+February 8th, 2015 at 8:52 am
+I like your chart. While it looks like theoretically there are these continual loops in biochemical cycles, inefficiencies found everywhere in nature result in losses in conversions resulting in the need to replenish these nutrients through foods and in some cases supplements (which is the subject of this particular blog post we are commenting on)
+
+Those inefficiencies are exacerbated by genetic polymorphisms that affect the enzymes that enable these cyclic conversions. For instance, those with the MTHFR C677T +/+ mutation have about a 30% MTHfR enzyme effectiveness, greatly reducing their ability to convert folic acid from the diet to the 5-MTHF in your chart and interfering with the methylation cycle and interacting with the B-12 cycle you illustrated. Folic acid can actually be problematic for the ones with the worst genetics who will need to take the active form of folate to feed their methylation cycle and reduce building homocysteine.
+
+The conversions in those cycles are controlled by enzymes at each point and variants of the genes that make those enzymes are sometimes common, sometimes rare. It is estimated that over 40% (maybe more) of Americans have some MTHFR variant +/+ or +/- as well is the A1298C MTHFR variant.
+
+It’s because of the hangups in these enzymatic conversions that I advocate taking the active (don’t need conversion) forms of B-12 and Folate because the people who are deficient (outside of Vegans) are often the ones with troubles converting
+
+Karl Baba Says:	
+February 8th, 2015 at 8:54 am
+Thank you by the way, for your time in engaging on this subject. Wishing you and all your readers the best
+
+TheVeganScientist Says:	
+February 8th, 2015 at 6:51 pm
+Exogenous Cobalamin has cobalt in the Co(III) state, irrespective of the vitamer. In order for it to be useful, it has to be reduced to the Co(I) state. This is performed by Cobalamin Reductase in the cytoplasm, (though there is some evidence it also happens in liver mitochondria) In the process the ligand is removed.
+
+Cobal(I)min is extremely reactive and unstable, called a “supernucleophile” it will react with just about anything it can donate electrons to. If you were to prepare a MethylCobal(I)amin exogenously and inject, eat or snort it, it would end up in the MethylCobal(III)amin state before it reached the cell and would have to be re-reduced.
+
+I have never come across in literature any Cobalamin reductase isoform that will not convert Cyanocobal(III)amin to cobalamin(I) but will reduce other vitamers.
+
+All these other ideas that Cyanocobalmin requires ATP, glutathione, etc… are not really relevant, since ATP is the general energy currency and there is only one enzyme that converts all the cobalamins. The conversion just needs NADPH to fuel it. You would have a real problem if you were NADPH deficient, because your cells would be dying rapidly.
+
+Handwaving arguments aside, the biomolecular , clinical intervention and epidemiological evidence all aligns with Cyanocobalamin being equally effective as other administered bioactive-vitamers of cobalamin in providing sufficient biological activity. The only possible caveat would be in heavy smokers and megadose (5mg) of cyanocobalamin, but that has to do with cyanide, not B12.
+
+People can take whatever form. It’s just cyanocobalamin is inexpensive and equally effective. There’s just no evidence one vitamer is better than the other. If someone finds some, they should try to publish it.
+
+Jack Norris RD Says:	
+May 3rd, 2015 at 10:02 pm
+TheVeganScientist,
+
+Some researchers believe that only active vitamin B12 can attach to transcobalamin II. Is that your view? And do you know if there are any forms of cobalamin that are inactive for humans? My understanding was that only 4 forms have been shown to be active for humans–methyl, adenosyl, hydroxo, and cyano, but there are others.
+
+Thank you for any help in this matter.
+
+TheVeganScientist Says:	
+February 8th, 2015 at 7:01 pm
+Oh. Here’s a link to a paper that outlines the adsorption, transport and conversion of Cobalmin extracellularly and connects it to the cellular activity.
+
+The conversion of Cobal(III) to Cobal(I)amin is also illustrated.
+
+Also, note the publication date and subject matter. As of 4 years ago there was no data suggesting methylcobalamin could alleviate inborn errors where cyanocobalamin cannot.
+
+“Inborn errors of cobalamin absorption and metabolism”
+http://onlinelibrary.wiley.com/doi/10.1002/ajmg.c.30288/abstract. You’ll need access to the journal to see the full paper. I can send it, if requested.
+
+TheVeganScientist Says:	
+February 8th, 2015 at 7:23 pm
+Oh, for completeness, I just remembered seeing a case study where hydroxocobalamin (injected intramuscularly) did lower MMA and Homocysteine levels in a couple of patients that had methylmalonic acidemia but their levels were seriously 100x normal and the cyanoB12 dropped it down to 10x normal where the hydroxo dropped it down to normal.
+
+For those two people the hydroxoform seemed to work better. It doesn’t necessarily mean it works better in all cases. That’s why they are called “case studies. ” They are interesting and can lead to follow up research, but you really can’t extrapolate someone with a severe genetic disorder to everyone because therapeutics (and micronutrients) do no follow a linear curve.
+
+Karl Baba Says:	
+February 8th, 2015 at 9:59 pm
+Thanks for the time on the additional replies.
+
+You’ve inspired me to do a very unscientific experiment. When I take 5mg MethylB-12 or 1mg HydroxB-12 sublingually, I can strongly feel the effects immediately in extra energy, a pretty rare reaction for me from any nutrient. I’m interested if I’ll feel that with cyanocobalamin. I think my Mom has some of it lying around.
+
+I know it will have limited meaning in general regardless of the results but It will be significant for me. I’ll look forward to clearer studies on the effects of genetics on B-12. As it is, there’s tons of research on specific diseases and forms of B-12 but hard to parse much out of it without an unreasonable amount of time spent for somebody who has a million other things to learn
+
+theveganscientist Says:	
+February 9th, 2015 at 4:24 am
+That’s the spirit!
+
+I do these types of personal experiments regularly, but usually use objective test results as an indicator of efficacy. For example, my family has a history of Low HDL (mine is typically ~30mg/dL without intervention.) I figured we might have a higher turnover rate in the liver, so I started experimenting with Nicotinic acid. Over the counter stuff (500mg delayed release) which inverted my cholesterol number so my HDL was 55mg/dL and my LDL was 42mg/dL (total was decreased by about 8%). I decreased the dose until a mere 50mg/day was enough to keep my HDL ~50mg/dL and my LDL ~62mg/dL with my total staying around 118-125mg/dL (4 years stable now). This probably doesn’t work for everyone given typical clinical dosages are 1000-2000mg/day.
+
+I don’t know if low HDL is a risk factor for vegans. There’s no real data to suggest one way or another, but given my family’s terrible history of heart disease I try to control the variables I have control over.
+
+Btw, I used to work for a health food/supplement company an we normally had to “taste test” our 1000uG Cyanocobalamin B12 lozenges. When I got my B12 levels tested, my plasma levels were 1219pg/mL, homocysteine was ~4.8uM.
+
+surinder Says:	
+August 27th, 2015 at 6:39 am
+very good.list of Cyanocobalamin producing bacteria?can you produce b12 at home?
+
+Jack Norris RD Says:	
+August 27th, 2015 at 1:57 pm
+surinder,
+
+> very good.list of Cyanocobalamin producing bacteria?can you produce b12 at home?
+
+This info is somewhat old but here are the bacteria I found to produce B12:
+
+http://veganhealth.org/b12/vegansources
+
+See the 3rd paragraph.
+There is no reliable way to produce B12 at home.
+
+Non-Vegan Says:	
+September 21st, 2016 at 8:56 am
+Thanks for the article and for not jumping on the hype. Very refreshing.
+
+Cyanocobalamin Lethal does for approx. 50%, LD50: Oral (several) species: LD50 >5000 mg/kg (Santa Cruz Biotechnology, Inc.). So for 75kg adult, lethal dose is > 375,000 mg. Try to take that, it’s 3,000 supplement vials at once! Caffeine is 150 to 200 mg/kg, that’s 80–110 cups of coffee for a 75kg adult. 100 cups of coffee can kill half of you, but you need to take 100,000, high dose Cyanocobalamin pills to have the same chance of dying. No doubt the other forms are superior, but is the cyanide scare just a little overblown? maybe to the point of misleading?
+
+Carolyn Says:	
+November 12th, 2017 at 11:32 am
+Bottom line? Which is harmful? Which one should we be avoiding?
+METHYLCOBALAMIN or CYANOCOBALAMIN????
+
+In terms for those of us who are not Drs., Chemists or Medical Researchers please. They are both sometimes listed in ingredients of various supplements or Supplemental Drinks.
+
+THANKS!
+
+Jack Norris RD Says:	
+November 18th, 2017 at 7:43 am
+Carolyn,
+
+Neither is harmful, but to ensure you’re getting enough methylcobalamin, I’d recommend taking 1,000 µg per day whereas you need much less cyanocobalamin (about 25 µg per day).
+
+Gayle Hill Says:	
+June 10th, 2018 at 5:04 pm
+When I became a vegan, about eight years ago, I was taking cyanocobalamin for my B 12. I got into the research and I found that when the Cyano breaks off, it can give you some of the symptoms of cyanide poisoning. The cyanide poisoning can cause coughing. That’s one of the symptoms. And the reason I looked it up in the first place, was because I had been coughing only since taking the cyanocobalamin. I had never had any coughing at all! I was only coughing once every three or four days couple times a day, after a while. At first it was only a once in several days. But as it became more frequent, I did the study.
+After learning that, I switch to Methylcobalamin, (which I wasn’t aware of until I took a second look on the shelf). And, low and behold, my coughing completely ceased. It’s subsided within if I can remember a week or less. And I never had a cough again.
+I hope this means something to somebody. So that I may be of some help.
+Gayle
+
+John Says:	
+June 17th, 2018 at 2:10 pm
+Coughing doesn’t seem to be one of the main cyanide side effects. Didn’t seem to come up in the studies I saw either, it was not an exhaustive search. Could it have been something else you were allergic to in the supplement?
+
+Jack Norris RD Says:	
+July 10th, 2018 at 9:30 am
+Gayle responded to me privately with:
+
+When I conducted a search in order to discover any problems with cyanocobalamin, I found a PDF. And it documented very clearly the results that was found in a fairly large and well structured study. Coughing was found to be one of the early symptoms of cyanide poisoning. I don’t remember much about the article other than this, because that was the info I was most interested in. Plus, it’s been eight years ago. But, I do remember that they were looking into the possible side effects of cyanocobalamin….Or maybe, ‘side effects of cyanide’.
+I looked quite deeply into the subject, at the time. And that was the only article that mentioned that side effect. But it was good enough for me, because I was already coughing. I had never coughed at all before I started taking the Cyanocobalamin. And, as soon as I stopped, my cough went away!
+Small sample!
+But enough for me!
