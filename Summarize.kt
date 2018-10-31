@@ -55,19 +55,24 @@ fun sortwords(purestring: String): List<String> {
 
 //returns the most frequently used words above severity threshold
 //calls sortwords and mostcommonwords
-fun returntop(wordcount:HashMap<String,):
+fun returntop(wordcount:HashMap<String>){}//,):
 
 //returns the sentence score as a length three int array
 //first number is the score, taken by adding the frequencies of each word
 //second number is the sentence length
 fun sentencescore(sentence: String, wordcount: HashMap<String,Int>): Array<Int>{
-  var sentencescore: Array<Int> = intArrayOf(0,0,0)
   val sentencearray = sentence.split(" ")
+  var sentencescore: Array<Int> = intArrayOf(0,sentencearray.len())
   
+  return sentencescore
 }
 
 //assigns a score to each sentence
-//
+//depending on the length a score of 1 means non sentence summary
+//score "uniqueness" of a sentence as well, and return the best sentence and thenext most unique best sentence.
+//or maybe parse by topic?
+//tag cloud as well 
+//select the top 1-3 sentences
 fun countworddensity(article: String,wordcount: HashMap<String,Int>) {
   var articlelist = article.split(".")
   //sentencevalues 
@@ -82,3 +87,4 @@ fun returntopwords(wordcount: Int) {
 
 fun summarize(article: String) {
 }
+
