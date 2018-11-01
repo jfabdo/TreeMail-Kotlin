@@ -55,15 +55,16 @@ fun sortwords(purestring: String): List<String> {
 
 //returns the most frequently used words above severity threshold
 //calls sortwords and mostcommonwords
-fun returntop(wordcount:HashMap<String>){}//,):
+fun returntop(wordcount:HashMap<String,Int>){}//,):
 
 //returns the sentence score as a length three int array
 //first number is the score, taken by adding the frequencies of each word
 //second number is the sentence length
 fun sentencescore(sentence: String, wordcount: HashMap<String,Int>): Array<Int>{
   val sentencearray = sentence.split(" ")
-  var sentencescore: Array<Int> = intArrayOf(0,sentencearray.len())
-  
+  var sentencescore:Array<Int> = arrayOf(0,sentencearray.size)
+  for (i in sentencearray) 
+    sentencescore[0] += wordcount[i]
   return sentencescore
 }
 
@@ -76,10 +77,17 @@ fun sentencescore(sentence: String, wordcount: HashMap<String,Int>): Array<Int>{
 fun countworddensity(article: String,wordcount: HashMap<String,Int>) {
   var articlelist = article.split(".")
   //sentencevalues 
-  var sentencevalues = HashMap<String,Array<Int>>() 
+//  var sentencevalues = sentencescore(
   
-  return sentencevalues
+//  return sentencevalues
 }
+
+//returns a ln(n)/ln(x) length summary, with the most word coverage
+//calls sentencescore
+fun getsummary(article: String,wordcount: HashMap<String,Int>): Array<String> {
+  
+}
+
 // returns the most used words. will be depricated in final version
 fun returntopwords(wordcount: Int) {
   
