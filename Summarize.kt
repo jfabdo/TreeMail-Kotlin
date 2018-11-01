@@ -63,8 +63,8 @@ fun returntop(wordcount:HashMap<String,Int>){}//,):
 fun sentencescore(sentence: String, wordcount: HashMap<String,Int>): Array<Int>{
   val sentencearray = sentence.split(" ")
   var sentencescore:Array<Int> = arrayOf(0,sentencearray.size)
-  for (i in sentencearray) 
-    sentencescore[0] += wordcount[i]
+  for (i in sentencearray)
+    sentencescore[0] += wordcount[i]!!
   return sentencescore
 }
 
@@ -84,7 +84,7 @@ fun countworddensity(article: String,wordcount: HashMap<String,Int>) {
 
 //returns a ln(n)/ln(x) length summary, with the most word coverage
 //calls sentencescore
-fun getsummary(article: String,wordcount: HashMap<String,Int>): Array<String> {
+fun getsummary(article: String,wordcount: HashMap<String,Int>){//: Array<String> {
   
 }
 
