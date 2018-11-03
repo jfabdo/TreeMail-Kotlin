@@ -2,6 +2,7 @@
 // TODO: Make this all an object, where the class is article
 // TODO: Make sentencevalues, hashmap et al global
 // TODO: Check if globals are empty, and if they are, fill them on the fly, but not in init
+// TODO: Make 2d array an array of arrays and access array[0][0], eg
 import java.util.*
 import java.io.File
 import kotlin.math.log
