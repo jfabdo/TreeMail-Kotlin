@@ -61,31 +61,33 @@ fun returntop(wordcount:HashMap<String,Int>){}//,):
 //first number is the score, taken by adding the frequencies of each word
 //second number is the sentence length
 //third is top 5 scoring words in the sentence
+//TODO: Turn Array into MutableList
 fun sentencescore(sentence: String, wordcount: HashMap<String,Int>): Array<Any>{
   val sentencearray = sentence.split(" ")
   var sentencescore:Array<Any> = arrayOf(0,sentencearray.size,arrayOf("","","","",""))
+  var taglist = sentencescore[2] as Array<String>
   for (i in sentencearray) {
     sentencescore[0] = wordcount[i]!!
     var word = i
-    for (j in 0..sentencescore[2].size-1){
+    for (j in 0..taglist.size-1){
       //if the slot is empty, place the word in the slot
-      if (sentencescore[2][j] == null) {
-        sentencescore[2][j] = word
+      if (taglist[j] == null) {
+        taglist[j] = word
         break
       }
       // if the score is greater than that word, push all words down a slot
-      if (wordcount[word] > wordcount[sentences[2][j]]) {
-        var tempword = sentences[2][j]
-        sentences[2][j] = word
+      if (wordcount[word]!! > wordcount[taglist[j]]!!) {
+        var tempword = taglist[j]
+        taglist[j] = word
         word = tempword
         //if the index is at the last word, break
-        if (j = sentencescore[2].size-1)
+        if (j == taglist.size-1)
           break
         //or else move everything down
-        for (k in j+1..sentencescore[2].size) {
-          tempword = sentencescore[2][k]
-          sentencescore = word
-          word = tempscore
+        for (k in j+1..taglist.size) {
+          tempword = taglist[k]
+          taglist[j] = word
+          word = tempword
         }
         break
       }
@@ -111,7 +113,7 @@ fun countworddensity(article: String,wordcount: HashMap<String,Int>): MutableLis
 //returns a ln(n)/ln(x) length summary, with the most word coverage
 //calls sentencescore
 fun getlogsummary(article: String,wordcount: HashMap<String,Int>){//: Array<String>{
-  val sentencevalues = countwordensity
+//  val sentencevalues = countworddensity(article)
 }
 
 // returns the most used words. will be depricated in final version
