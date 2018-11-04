@@ -131,6 +131,12 @@ fun gettopsentence(sentencevalues:MutableList<List<Any>>): Int {
   return topsentence
 }
 
+//rescores sententences by measuring against the existing summary.
+//
+fun rank_n-ary_sentences(summary:String,sentencevaules:List<Any>):List<List<Any>>{
+  
+}
+
 //calls countworddensity
 //score "uniqueness" of a sentence as well, and return the best sentence and thenext most unique best sentence.
 //or maybe parse by topic?
@@ -138,11 +144,16 @@ fun gettopsentence(sentencevalues:MutableList<List<Any>>): Int {
 //select the top 1-3 sentences
 //TODO:put in while loop that fills string until length is met
 //EX: while length < finallength, keep adding unique sentences
+//Create a mutable list that checks how similar it is to the existing summary
 fun gettopsummary(article: String,wordcount: HashMap<String,Int>){//: Array<String>{
   val sentencevalues = countworddensity(article,wordcount)
   val summarylength = sentencelength(article)
   val finallength = 3*log(summarylength,3)
   var wordcountmut = wordcount
+  var summary:String = ""
+  while ( summary.split(" ").size < finallength ) {
+    var 
+  }
 }
 
 // returns the most used words. will be depricated in final version
