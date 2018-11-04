@@ -76,29 +76,31 @@ fun returntop(wordcount:HashMap<String,Int>){}//,):
 //TODO: Turn Array into MutableList
 fun sentencescore(sentence: String, wordcount: HashMap<String,Int>): Array<Any>{
   val sentencearray = sentence.split(" ")
-  var sentencescore:Array<Any> = arrayOf(0,sentencearray.size,arrayOf("","","","",""))
-  var taglist = sentencescore[2] as Array<String>
+  var sentencescore:Array<Any> = arrayOf(
+    arrayOf(0),
+    arrayOf(sentencearray.size),
+    arrayOf("","","","","") )
   for (i in sentencearray) {
     sentencescore[0] = wordcount[i]!!
     var word = i
-    for (j in 0..taglist.size-1){
+    for (j in 0..sentencescore[2].size-1){
       //if the slot is empty, place the word in the slot
-      if (taglist[j] == null) {
-        taglist[j] = word
+      if (sentencescore[2][j] == null) {
+        sentencescore[2][j] = word
         break
       }
       // if the score is greater than that word, push all words down a slot
-      if (wordcount[word]!! > wordcount[taglist[j]]!!) {
-        var tempword = taglist[j]
-        taglist[j] = word
+      if (wordcount[word]!! > wordcount[sentencescore[2][j]]!!) {
+        var tempword = sentencescore[2][j]
+        sentencescore[2][j] = word
         word = tempword
         //if the index is at the last word, break
-        if (j == taglist.size-1)
+        if (j == sentencescore[2].size-1)
           break
         //or else move everything down
-        for (k in j+1..taglist.size) {
-          tempword = taglist[k]
-          taglist[j] = word
+        for (k in j+1..sentencescore[2].size) {
+          tempword = sentencescore[2][k]
+          sentencescore[2][j] = word
           word = tempword
         }
         break
