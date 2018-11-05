@@ -1,35 +1,28 @@
 // Written by Jack Abdo
-// TODO: Make this all an object, where the class is article
-// TODO: Make sentencevalues, hashmap et al global
-// TODO: Check if globals are empty, and if they are, fill them on the fly, but not in init
-// TODO: Make 2d array an array of arrays and access array[0][0], eg
+// TODO: Make sure all types match, eg not mixing arrays, lists, and mutable lists
 import java.util.*
 import java.io.File
 import kotlin.math.log
 
-class Article(articlein:String) {
+class Article(_article:String) {
 
 //  private var articlevar:String = ""
 
-  var article:String = ""
-  var mostcommonwords = List<String>()
+  var article:String = _article
+  var mostcommonwords:List<String>
   var wordscore = HashMap<String,Int>()
-  var sentencevalues = List<Array<Any>>()
   var summary:String = ""
-  
-  init {
-    article = articlein
-  }
 
-  private fun fillmostcommonwords() { // 
+  private fun fillmostcommonwords(): List<String>{ // 
     val filename: String = "mostcommonwords.txt"
-    mostcommonwordsvar = File(filename).readLines().toTypedArray().toList()
-  }  
-  
-  mostcommonwords = fillmostcommonwords()
-  
-  // cleans the punctuation and doublewhitespace from the article
-  fun removewhitespaceandpunctuation(textstring: String): String {
+    val _mostcommonwords = File(filename).readLines().toTypedArray().toList()
+    return _mostcommonwords
+  }
+  init {
+    mostcommonwords = fillmostcommonwords()
+  }
+  // cleans the punctuation and doublewhitespace from the input
+  private fun removewhitespaceandpunctuation(textstring: String): String {
     val re = Regex("[^A-Za-z0-9 ]")
     var purestring = re.replace(textstring," ")
     while (purestring.contains("  "))
@@ -39,7 +32,7 @@ class Article(articlein:String) {
 
   //retuns the number of words in a string
   //calls removewhiespaceandpunctuation
-  fun sentencelength(textstring: String): Int {
+  private fun sentencelength(textstring: String): Int {
     val processedstring = removewhitespaceandpunctuation(textstring)
     val sentencesize = processedstring.split(" ").size
     return sentencesize
@@ -71,7 +64,9 @@ class Article(articlein:String) {
     return wordscore
   }
   
-  var wordscore = cleanandcountwords()
+  init {
+  wordscore = cleanandcountwords()
+  }
   
   //Sorts the dict by value and returns the values.
   fun sortwords(purestring: String): List<String> {
@@ -86,15 +81,20 @@ class Article(articlein:String) {
   //third is top 5 scoring words in the sentence
   //TODO: Turn Array into MutableList
   fun sentencescore(sentence: String): Array<Any>{
-    val sentencearray = sentence.split(" ")
-    var sentencescore:Array<Any> = arrayOf(
-      arrayOf(0),
-      arrayOf(sentencearray.size),
-      arrayOf("","","","","") )
+    val sentencearray = sentence.split(" ") //split sentence into single words
+    //first is sentence score, second is size, third is top tag words
+    var sentencescore = 
+      arrayOf(
+        arrayOf(0),
+        arrayOf(sentencearray.size),
+        arrayOf("","","","","") 
+      )
     for (i in sentencearray) {
-      sentencescore[0] = wordcount[i]!!
-      var word = i
-      for (j in 0..sentencescore[2].size-1){
+      if (i in summary) //if the word is already in the summary, do not score it
+        continue
+      sentencescore[0][0] += wordcount[i]!!//add the wordscore to the sentencescore
+      var word = i //assign the word to 'word' so it can be added to the tagcld
+      for (j in 0..sentencescore[2].size-1){//add word to tag cloud
         //if the slot is empty, place the word in the slot
         if (sentencescore[2][j] == null) {
           sentencescore[2][j] = word
@@ -122,67 +122,48 @@ class Article(articlein:String) {
   }
   
   //assigns a score to each sentence, returns score, length, and top 5 tag words 
-  fun countworddensity(): MutableList<List<Any>> {
+  fun countworddensity(): List<List<Any>> {
     var articlelist = article.split(".")
     var sentencevalues = mutableListOf<List<Any>>()
+    val puresentence
     for (sentence in articlelist)
-      sentencevalues.add(listOf(sentence,sentencescore(sentence,wordcount)))
+      puresentence = removewhitespaceandpunctuation(sentence)
+      sentencevalues.add(listOf(sentence,sentencescore(puresentence)))
     return sentencevalues
   }
   
-  sentencevalues = countworddensity()
-  
   //returns the top scoring sentence
   //calls: nothing
-  fun gettopsentence(sentencevalues:MutableList<List<Any>>): Int {
+  fun gettopsentence(sentencevalues:List<List<Any>>): Int {
     var topsentence:Int = 0
-    //checks the score of all the sentences, includes checking the zeroth element
-    for (i in sentencevalues.index): 
+    //checks the score of all the sentences, includes checking the zeroth element in case article is one sentence long
+    for (i in sentencevalues.index) {
       //checks each value
       if (sentencevalues[i][0] > sentencevalues[topsentence][0])
         topsentence = i
+    }
     return topsentence
   }
-
-  //rescores sententences by measuring against the existing summary.
-  //
-  fun rank_n-ary_sentences(
-    summary:String,
-    sentencevalues:List<Any>,
-    wordcount)
-      :List<List<Any>>{
-    var sentencescores = sentencevalues as MutableList<MutableList>
-  }
-
-  //calls countworddensity
-  //score "uniqueness" of a sentence as well, and return the best sentence and thenext most unique best sentence.
-  //or maybe parse by topic?
-  //tag cloud as well 
-  //select the top 1-3 sentences
-  //TODO:put in while loop that fills string until length is met
-  //EX: while length < finallength, keep adding unique sentences
-  //Create a mutable list that checks how similar it is to the existing summary
-  fun getshortsummary(){//: Array<String>{
+  
+  //select the top 1-3 sentences and loads them into summary
+  //calls countworddensity, gettopsentence
+  fun getshortsummary(){
     val summarylength = sentencelength(article)
     val finallength = 3*log(summarylength,3)
-    var wordcountmut = wordcount
     while ( summary.split(" ").size < finallength ) {
-      var 
+       val newwordscore = countworddensity()
+       summary += gettopsentence(newwordscore)
     }
   }
-
-  // returns the most used words. will be depricated in final version
-  fun returntopwords(wordcount: Int) {
-    
+  
+  init {
+    summary = getshortsummary()
   }
-
-  fun summarize(article: String) {
+  //returns a shortened version of the article
+  //TODO: Finish this in the future
+  //TODO: Compare this with existing summary algorithms
+  fun summarize() {
+    throw NotImplementedError()
   }
-/*
-  private var mostcommonwordsvar = List<String>()
-  private var wordscorevar = HashMap<String,Int>()
-  private var articlevar:String = ""
-  private var summaryvar:String = ""
-*/
   
 }
