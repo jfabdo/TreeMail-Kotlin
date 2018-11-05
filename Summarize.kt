@@ -79,16 +79,16 @@ class Article(_article:String) {
   //first number is the score, taken by adding the frequencies of each word
   //second number is the sentence length
   //third is top 5 scoring words in the sentence
-  //TODO: Turn Array into MutableList
+  //TODO: Redesign and return individual vars as list rather than packing immed
   fun sentencescore(sentence: String): Array<Any>{
     val sentencearray = sentence.split(" ") //split sentence into single words
     //first is sentence score, second is size, third is top tag words
-    var sentencescore = 
+    val sentencescore =
       arrayOf(
         arrayOf(0),
         arrayOf(sentencearray.size),
-        arrayOf("","","","","") 
-      )
+        arrayOf("","","","","")
+        )
     for (i in sentencearray) {
       if (i in summary) //if the word is already in the summary, do not score it
         continue
