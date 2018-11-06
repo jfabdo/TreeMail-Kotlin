@@ -121,7 +121,7 @@ class Article(_article:String) {
   fun countworddensity(): List<List<Any>> {
     var articlelist = article.split(".")
     var sentencevalues = mutableListOf<List<Any>>()
-    var puresentence = ""
+    var puresentence:String
     for (sentence in articlelist) {
       puresentence = removewhitespaceandpunctuation(sentence)
       sentencevalues.add(listOf(sentence,sentencescore(puresentence)))
@@ -134,11 +134,11 @@ class Article(_article:String) {
   fun gettopsentence(sentencevalues:List<List<Any>>): Int {
     var topsentence:Int = 0
     //checks the score of all the sentences, includes checking the zeroth element in case article is one sentence long
-    for (i in sentencevalues.index) {
+    for (i in sentencevalues.indices) 
       //checks each value
-      if (sentencevalues[i][0] > sentencevalues[topsentence][0])
+      if (sentencevalues[i][0] as Int > sentencevalues[topsentence][0] as Int)
         topsentence = i
-    }
+    
     return topsentence
   }
   
@@ -146,7 +146,7 @@ class Article(_article:String) {
   //calls countworddensity, gettopsentence
   fun getshortsummary(){
     val summarylength = sentencelength(article)
-    val finallength = 3*log(summarylength,3)
+    val finallength = 3*log(summarylength as Double,3 as Double)
     while ( summary.split(" ").size < finallength ) {
        val newwordscore = countworddensity()
        summary += gettopsentence(newwordscore)
@@ -154,7 +154,7 @@ class Article(_article:String) {
   }
   
   init {
-    summary = getshortsummary()
+    getshortsummary()
   }
   //returns a shortened version of the article
   //TODO: Finish this in the future
