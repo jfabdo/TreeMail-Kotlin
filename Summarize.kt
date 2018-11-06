@@ -92,7 +92,7 @@ class Article(_article:String) {
       var word = i //assign the word to 'word' so it can be added to the tagcld
       for (j in 0..tagcloud.size-1){//add word to tag cloud
         //if the slot is empty, place the word in the slot
-        if (tagcloud[j] == null) {
+        if (tagcloud[j] == "") {
           tagcloud[j] = word
           break
         }
@@ -146,7 +146,7 @@ class Article(_article:String) {
   //calls countworddensity, gettopsentence
   fun getshortsummary(){
     val summarylength = sentencelength(article)
-    val finallength = 3*log(summarylength as Double,3 as Double)
+    val finallength = 3*log(summarylength as Double,3.0) as Int
     while ( summary.split(" ").size < finallength ) {
        val newwordscore = countworddensity()
        summary += gettopsentence(newwordscore)
