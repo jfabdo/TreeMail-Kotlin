@@ -1,5 +1,7 @@
 // Written by Jack Abdo
 // TODO: Make sure all types match, eg not mixing arrays, lists, and mutable lists
+package com.jfabdo.summarize
+
 import java.util.*
 import java.io.File
 import kotlin.math.log
