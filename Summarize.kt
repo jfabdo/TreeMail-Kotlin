@@ -11,7 +11,7 @@ class Article(_article:String) {
 //  private var articlevar:String = ""
 
   var article:String = _article
-  var mostcommonwords:List<String>
+  private var mostcommonwords:List<String>
   var wordscore = HashMap<String,Int>()
   var summary:String = ""
 
@@ -43,7 +43,7 @@ class Article(_article:String) {
   //takes a string of words and returns the word frequency
   //accepts a string list and returns a HashMap
   //calls: nothing
-  fun wordfreq(purearray:List<String>): HashMap<String,Int> {
+  private fun wordfreq(purearray:List<String>): HashMap<String,Int> {
     var wordscore:HashMap<String,Int> = HashMap<String,Int>()
     //increments the count if it exists in the hash table, otherwise adds it
     for (key in purearray) {
@@ -59,7 +59,7 @@ class Article(_article:String) {
  
   //wrapper for wordfreq, cleans punctuation and whitespace out of the text
   //calls: whitespace and wordfreq
-  fun cleanandcountwords(): HashMap<String,Int>  {
+  private fun cleanandcountwords(): HashMap<String,Int>  {
     val purestring: String = removewhitespaceandpunctuation(article)
     val wordlist:List<String> = purestring.split(" ")
     val wordscore:HashMap<String,Int> = wordfreq(wordlist)
@@ -71,7 +71,7 @@ class Article(_article:String) {
   }
   
   //Sorts the dict by value and returns the values.
-  fun sortwords(purestring: String): List<String> {
+  private fun sortwords(purestring: String): List<String> {
     var purearray: Array<String> = purestring.split(" ").toTypedArray()
     purearray.sort()
     return purearray.toList()
@@ -82,7 +82,7 @@ class Article(_article:String) {
   //second number is the sentence length
   //third is top 5 scoring words in the sentence
   //TODO: Redesign and return individual vars as list rather than packing immed
-  fun sentencescore(sentence: String): List<Any>{
+  private fun sentencescore(sentence: String): List<Any>{
     val sentencearray = sentence.split(" ") //split sentence into single words
     //first is sentence score, second is size, third is top tag words
     var sentencescore = 0
@@ -120,7 +120,7 @@ class Article(_article:String) {
   }
   
   //assigns a score to each sentence, returns score, length, and top 5 tag words 
-  fun countworddensity(): List<List<Any>> {
+  private fun countworddensity(): List<List<Any>> {
     var articlelist = article.split(".")
     var sentencevalues = mutableListOf<List<Any>>()
     var puresentence:String
@@ -133,7 +133,7 @@ class Article(_article:String) {
   
   //returns the top scoring sentence
   //calls: nothing
-  fun gettopsentence(sentencevalues:List<List<Any>>): Int {
+  private fun gettopsentence(sentencevalues:List<List<Any>>): Int {
     var topsentence:Int = 0
     //checks the score of all the sentences, includes checking the zeroth element in case article is one sentence long
     for (i in sentencevalues.indices) 
@@ -146,7 +146,7 @@ class Article(_article:String) {
   
   //select the top 1-3 sentences and loads them into summary
   //calls countworddensity, gettopsentence
-  fun getshortsummary(){
+  private fun getshortsummary(){
     val summarylength = sentencelength(article)
     val finallength = 3*log(summarylength as Double,3.0) as Int
     while ( summary.split(" ").size < finallength ) {
@@ -164,5 +164,4 @@ class Article(_article:String) {
   fun summarize() {
     throw NotImplementedError()
   }
-  
 }
