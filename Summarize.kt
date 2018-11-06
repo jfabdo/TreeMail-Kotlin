@@ -80,55 +80,52 @@ class Article(_article:String) {
   //second number is the sentence length
   //third is top 5 scoring words in the sentence
   //TODO: Redesign and return individual vars as list rather than packing immed
-  fun sentencescore(sentence: String): Array<Any>{
+  fun sentencescore(sentence: String): List<Any>{
     val sentencearray = sentence.split(" ") //split sentence into single words
     //first is sentence score, second is size, third is top tag words
-    val sentencescore =
-      arrayOf(
-        arrayOf(0),
-        arrayOf(sentencearray.size),
-        arrayOf("","","","","")
-        )
+    var sentencescore = 0
+    var tagcloud = mutableListOf("","","","","")
     for (i in sentencearray) {
       if (i in summary) //if the word is already in the summary, do not score it
         continue
-      sentencescore[0][0] += wordcount[i]!!//add the wordscore to the sentencescore
+      sentencescore += wordscore[i]!!//add the wordscore to the sentencescore
       var word = i //assign the word to 'word' so it can be added to the tagcld
-      for (j in 0..sentencescore[2].size-1){//add word to tag cloud
+      for (j in 0..tagcloud.size-1){//add word to tag cloud
         //if the slot is empty, place the word in the slot
-        if (sentencescore[2][j] == null) {
-          sentencescore[2][j] = word
+        if (tagcloud[j] == null) {
+          tagcloud[j] = word
           break
         }
         // if the score is greater than that word, push all words down a slot
-        if (wordcount[word]!! > wordcount[sentencescore[2][j]]!!) {
-          var tempword = sentencescore[2][j]
-          sentencescore[2][j] = word
+        if (wordscore[word]!! > wordscore[tagcloud[j]]!!) {
+          var tempword = tagcloud[j]
+          tagcloud[j] = word
           word = tempword
           //if the index is at the last word, break
-          if (j == sentencescore[2].size-1)
+          if (j == tagcloud.size-1)
             break
           //or else move everything down
-          for (k in j+1..sentencescore[2].size) {
-            tempword = sentencescore[2][k]
-            sentencescore[2][j] = word
+          for (k in j+1..tagcloud.size) {
+            tempword = tagcloud[k]
+            tagcloud[j] = word
             word = tempword
           }
           break
         }
       }
     }
-    return sentencescore
+    return listOf(sentencescore,sentencearray.size,tagcloud as List<Any>)
   }
   
   //assigns a score to each sentence, returns score, length, and top 5 tag words 
   fun countworddensity(): List<List<Any>> {
     var articlelist = article.split(".")
     var sentencevalues = mutableListOf<List<Any>>()
-    val puresentence
-    for (sentence in articlelist)
+    var puresentence = ""
+    for (sentence in articlelist) {
       puresentence = removewhitespaceandpunctuation(sentence)
       sentencevalues.add(listOf(sentence,sentencescore(puresentence)))
+    }
     return sentencevalues
   }
   
