@@ -9,4 +9,4 @@ Usage is `java -jar Synopsis.jar testarticle.txt`
 Ex:  
 `jack@hostname:~/Projects/TreeMail-Kotlin$ java -jar Synopsis.jar testarticle4.txt `
 
-> If Qualcomm were allowed to keep its standard essential patents to itself, the court wrote, it would enable the company “to achieve a monopoly in the modem chip market and limit competing implementations of those components.  Until now, Qualcomm has only offered those licenses to companies that directly manufacture smartphones, and it seems that Qualcomm only did that when it was directly selling chips to them. 
+> Qualcomm was dealt a major loss in one of its many ongoing legal battles this afternoon, with a federal court ruling that the company must license its modem patents to competing chipmakers, potentially weakening its stranglehold on the market.  The crux of the lawsuit — whether Qualcomm used anti-competitive practices to maintain a monopoly over smartphone modems — isn’t being ruled on here. 
