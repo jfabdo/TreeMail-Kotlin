@@ -9,9 +9,9 @@ import kotlin.math.round
 
 fun main(args: Array<String>) {
   for (i in args) {
-    val ourarticle = File(i).readText()
-    val oursummary = Article(ourarticle).summary
-    println(oursummary+"\n\n\n")
+    val inputarticle = Article(File(i).readText())
+    //println(inputarticle.tagcloud)
+    println(inputarticle.summary+"\n\n\n")
   }
 }
 
@@ -23,6 +23,7 @@ class Article(_article:String) {
   private var mostcommonwords:List<String>
   var wordscore = HashMap<String,Int>()
   var summary:String = ""
+  var tagcloud:List<String> = listOf()
 
   private fun fillmostcommonwords(): List<String>{ // 
     val filename: String = "mostcommonwords.txt"
@@ -142,14 +143,14 @@ class Article(_article:String) {
   
   //returns the top scoring sentence
   //calls: nothing
-  private fun gettopsentence(sentencevalues:List<List<Any>>): String {
+  private fun gettopsentence(sentencevalues:List<List<Any>>): List<Any> {
     var topsentence:Int = 0
     //checks the score of all the sentences, includes checking the zeroth element in case article is one sentence long
     for (i in sentencevalues.indices)
       //checks each value
       if (sentencevalues[i][1] as Int > sentencevalues[topsentence][1] as Int)
         topsentence = i
-    return sentencevalues[topsentence][0] as String
+    return listOf(sentencevalues[topsentence][0],sentencevalues[topsentence][3])
   }
   
   //select the top 1-3 sentences and loads them into summary
@@ -159,7 +160,9 @@ class Article(_article:String) {
     val finallength = round(10*log(summarylength + 0.0,3.0)).toInt()
     while ( summary.split(" ").size < finallength + 2 ) {
        val newwordscore = countworddensity()
-       summary += gettopsentence(newwordscore)
+       val result = gettopsentence(newwordscore)
+       summary += result[0]
+       tagcloud += result[1] as List<String>
     }
   }
   
