@@ -5,6 +5,15 @@ package com.jfabdo.summarize
 import java.util.*
 import java.io.File
 import kotlin.math.log
+import kotlin.math.round
+
+fun main(args: Array<String>) {
+  for (i in args) {
+    val ourarticle = File(i).readText()
+    val oursummary = Article(ourarticle).summary
+    println(oursummary+"\n\n\n")
+  }
+}
 
 class Article(_article:String) {
 
@@ -28,7 +37,7 @@ class Article(_article:String) {
     val re = Regex("[^A-Za-z0-9 ]")
     var purestring = re.replace(textstring," ")
     while (purestring.contains("  "))
-      purestring.replace("  "," ")
+      purestring = purestring.replace("  "," ")
     return purestring
   }
 
@@ -107,7 +116,7 @@ class Article(_article:String) {
           if (j == tagcloud.size-1)
             break
           //or else move everything down
-          for (k in j+1..tagcloud.size) {
+          for (k in j+1..tagcloud.size-1) {
             tempword = tagcloud[k]
             tagcloud[j] = word
             word = tempword
@@ -126,30 +135,29 @@ class Article(_article:String) {
     var puresentence:String
     for (sentence in articlelist) {
       puresentence = removewhitespaceandpunctuation(sentence)
-      sentencevalues.add(listOf(sentence,sentencescore(puresentence)))
+      sentencevalues.add(listOf(sentence+". ") + sentencescore(puresentence))
     }
     return sentencevalues
   }
   
   //returns the top scoring sentence
   //calls: nothing
-  private fun gettopsentence(sentencevalues:List<List<Any>>): Int {
+  private fun gettopsentence(sentencevalues:List<List<Any>>): String {
     var topsentence:Int = 0
     //checks the score of all the sentences, includes checking the zeroth element in case article is one sentence long
-    for (i in sentencevalues.indices) 
+    for (i in sentencevalues.indices)
       //checks each value
-      if (sentencevalues[i][0] as Int > sentencevalues[topsentence][0] as Int)
+      if (sentencevalues[i][1] as Int > sentencevalues[topsentence][1] as Int)
         topsentence = i
-    
-    return topsentence
+    return sentencevalues[topsentence][0] as String
   }
   
   //select the top 1-3 sentences and loads them into summary
   //calls countworddensity, gettopsentence
   private fun getshortsummary(){
     val summarylength = sentencelength(article)
-    val finallength = 3*log(summarylength as Double,3.0) as Int
-    while ( summary.split(" ").size < finallength ) {
+    val finallength = round(10*log(summarylength + 0.0,3.0)).toInt()
+    while ( summary.split(" ").size < finallength + 2 ) {
        val newwordscore = countworddensity()
        summary += gettopsentence(newwordscore)
     }
