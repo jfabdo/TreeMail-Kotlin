@@ -1,5 +1,5 @@
 // Written by Jack Abdo
-// TODO: Make sure all types match, eg not mixing arrays, lists, and mutable lists
+
 package com.jfabdo.summarize
 
 import java.util.*
@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
   for (i in args) {
     val inputarticle = Article(File(i).readText())
     println(inputarticle.tagcloud)
-    println(inputarticle.summary+"\n\n\n")
+    println(inputarticle.synopsis+"\n\n\n")
     //println(inputarticle.wordscore)
   }
 }
@@ -27,8 +27,8 @@ class Article(_article:String) {
 
   var article:String = _article
   private var ignorelist:List<String>
-  var wordscore = HashMap<String,Int>()
-  var summary:String = ""
+  private var wordscore = HashMap<String,Int>() //TODO: Fix so there is a permanent copy
+  var synopsis:String = ""
   var tagcloud:List<String> = listOf()
 
   private fun fillignorelist(): List<String>{ // 
@@ -112,8 +112,8 @@ class Article(_article:String) {
     var tagcloud = mutableListOf<String>("","","","","")
     for (ii in sentencearray) {
       val i = strcln(ii)
-      //if the word is already in the summary, do not score it
-      if (i in tagcloud || i in summary.toLowerCase() || i in ignorelist) {
+      //if the word is already in the synopsis, do not score it
+      if (i in tagcloud || i in synopsis.toLowerCase() || i in ignorelist) {
         continue
       }
       sentencescore += wordscore(i)//add the wordscore to the sentencescore
@@ -167,15 +167,15 @@ class Article(_article:String) {
     return listOf(sentencevalues[topsentence][0],sentencevalues[topsentence][3])
   }
   
-  //select the top 1-3 sentences and loads them into summary
+  //select the top 1-3 sentences and loads them into synopsis
   //calls countworddensity, gettopsentence
   private fun getshortsynopsis(){
-    val summarylength = sentencelength(article)
-    val finallength = round(10*log(summarylength + 0.0,3.0)).toInt()
-    while ( summary.split(" ").size < finallength + 2 ) {
+    val synopsislength = sentencelength(article)
+    val finallength = round(10*log(synopsislength + 0.0,3.0)).toInt()
+    while ( synopsis.split(" ").size < finallength + 2 ) {
        val newwordscore = countworddensity()
        val result = gettopsentence(newwordscore)
-       summary += result[0]
+       synopsis += result[0]
        tagcloud += result[1] as List<String>
     }
   }
@@ -185,7 +185,7 @@ class Article(_article:String) {
   }
   //returns a shortened version of the article
   //TODO: Finish this in the future
-  //TODO: Compare this with existing summary algorithms
+  //TODO: Compare this with existing synopsis algorithms
   fun longsynopsis() {
     throw NotImplementedError()
   }
