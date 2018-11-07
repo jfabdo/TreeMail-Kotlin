@@ -6,11 +6,16 @@ import java.util.*
 import java.io.File
 import kotlin.math.log
 import kotlin.math.round
+import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
+  if (args.size == 0) {
+    println("Please specify a file.")
+    exitProcess(0)
+  }
   for (i in args) {
     val inputarticle = Article(File(i).readText())
-    //println(inputarticle.tagcloud)
+    println(inputarticle.tagcloud)
     println(inputarticle.summary+"\n\n\n")
   }
 }
@@ -20,18 +25,18 @@ class Article(_article:String) {
 //  private var articlevar:String = ""
 
   var article:String = _article
-  private var mostcommonwords:List<String>
+  private var ignorelist:List<String>
   var wordscore = HashMap<String,Int>()
   var summary:String = ""
   var tagcloud:List<String> = listOf()
 
-  private fun fillmostcommonwords(): List<String>{ // 
-    val filename: String = "mostcommonwords.txt"
-    val _mostcommonwords = File(filename).readLines().toTypedArray().toList()
-    return _mostcommonwords
+  private fun fillignorelist(): List<String>{ // 
+    val filename: String = "ignorelist.txt"
+    val _ignorelist = File(filename).readLines().toTypedArray().toList()
+    return _ignorelist
   }
   init {
-    mostcommonwords = fillmostcommonwords()
+    ignorelist = fillignorelist()
   }
   // cleans the punctuation and doublewhitespace from the input
   private fun removewhitespaceandpunctuation(textstring: String): String {
@@ -86,20 +91,24 @@ class Article(_article:String) {
     purearray.sort()
     return purearray.toList()
   }
-
+  private fun wordscore(wordtoscore:String): Int {
+    val wordtoscorelower = wordtoscore.toLowerCase()
+    return wordscore[wordtoscorelower]!!
+  }
   //returns the sentence score as a length three int array
   //first number is the score, taken by adding the frequencies of each word
   //second number is the sentence length
   //third is top 5 scoring words in the sentence
-  //TODO: Redesign and return individual vars as list rather than packing immed
   private fun sentencescore(sentence: String): List<Any>{
     val sentencearray = sentence.split(" ") //split sentence into single words
     //first is sentence score, second is size, third is top tag words
     var sentencescore = 0
-    var tagcloud = mutableListOf("","","","","")
+    var tagcloud = mutableListOf<String>("","","","","")
     for (i in sentencearray) {
-      if (i in summary) //if the word is already in the summary, do not score it
+      //if the word is already in the summary, do not score it
+      if (i in tagcloud || i in summary || i in ignorelist) {
         continue
+      }
       sentencescore += wordscore[i]!!//add the wordscore to the sentencescore
       var word = i //assign the word to 'word' so it can be added to the tagcld
       for (j in 0..tagcloud.size-1){//add word to tag cloud
@@ -119,14 +128,14 @@ class Article(_article:String) {
           //or else move everything down
           for (k in j+1..tagcloud.size-1) {
             tempword = tagcloud[k]
-            tagcloud[j] = word
+            tagcloud[k] = word
             word = tempword
           }
           break
         }
       }
     }
-    return listOf(sentencescore,sentencearray.size,tagcloud as List<Any>)
+    return listOf(sentencescore,sentencearray.size,tagcloud as List<String>)
   }
   
   //assigns a score to each sentence, returns score, length, and top 5 tag words 
