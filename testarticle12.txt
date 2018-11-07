@@ -1,0 +1,39 @@
+Blockchain-based elections would be a disaster for democracy
+Opinion: Blockchain-based voting would destroy public trust in elections.
+TIMOTHY B. LEE - NOV 6, 2018 4:32 PM UTC
+
+Blockchain-based elections would be a disaster for democracy
+Esther Vargas / Flickr
+197
+FURTHER READING
+Experts criticize West Virginia’s plan for smartphone voting
+If you talk to experts on election security (I studied with several of them in graduate school) they'll tell you that we're nowhere close to being ready for online voting. "Mobile voting is a horrific idea," said election security expert Joe Hall when I asked him about a West Virginia experiment with blockchain-based mobile voting back in August.
+But on Tuesday, The New York Times published an opinion piece claiming the opposite.
+
+"Building a workable, scalable, and inclusive online voting system is now possible, thanks to blockchain technologies," writes Alex Tapscott, whom the Times describes as co-founder of the Blockchain Research Institute.
+
+Tapscott is wrong—and dangerously so. Online voting would be a huge threat to the integrity of our elections—and to public faith in election outcomes.
+
+Tapscott focuses on the idea that blockchain technology would allow people to vote anonymously while still being able to verify that their vote was included in the final total. Even assuming this is mathematically possible—and I think it probably is—this idea ignores the many, many ways that foreign governments could compromise an online vote without breaking the core cryptographic algorithms.
+
+For example, foreign governments could hack into the computer systems that governments use to generate and distribute cryptographic credentials to voters. They could bribe election officials to supply them with copies of voters' credentials. They could hack into the PCs or smartphones voters use to cast their votes. They could send voters phishing emails to trick them into revealing their voting credentials—or simply trick them into thinking they've cast a vote when they haven't.
+
+After-the-fact verification makes things worse, not better
+FURTHER READING
+The Michigan fight song and four other reasons to avoid Internet voting
+Tapscott says these concerns are no big deal because voters can always check later to see if their vote was recorded properly.
+"Because of the clear chain of custody, citizens could prove that their voting tokens had been stolen," he writes.
+
+But let's think about how this would play out in practice. Suppose it's mid-November 2020 and Donald Trump has narrowly won reelection. A few thousand voters in key swing states come forward to say that they intended to vote for Trump's opponent but their vote was recorded for Trump instead. Thousands of others say they tried to vote for Trump—or against him—but their votes weren't counted.
+
+Was that due to hackers meddling with the vote, technical snafus, or user error? Were some of them just misremembering how they had cast their ballots? There would be no way to know for sure.
+
+An important property for an election is finality: you want a well-understood process that makes people confident in the result. The paper-based process used in most states today isn't perfect, but it's pretty good on this score. Each vote is recorded on a paper ballot that's available for anyone to look at. Everyone understands how paper ballots work. People can observe the vote-counting process to verify that no ballots were altered. So not only does the process usually lead to an accurate count of peoples' votes, it also builds public confidence in the integrity of the result.
+
+Blockchain voting would be much, much worse. Hardly anyone understands how a blockchain works, and even experts don't have a good way to observe the online voting process for irregularities the way an election observer does in a traditional paper election. A voter might be able to use her private key to verify how her vote was recorded after the fact. But if her vote wasn't counted the way she expected (or wasn't counted at all) she'd have no good way to prove that she tried to vote a different way.
+
+Election officials would have to make a lot of judgment calls, and in a close race, the result would depend on which after-the-election changes election officials allowed. And that, in turn, would destroy the election's credibility among the losing candidate's supporters.
+
+Tapscott says the solution is to give each voter a "backup voting token," but that doesn't solve anything. Giving people backup tokens essentially amounts to holding a do-over election, since anyone would be able to log on and change their votes after the fact. But backup credentials can be stolen just as the original credentials can be. There will inevitably be voters who check the day after this second election and say that their votes still weren't recorded correctly.
+
+No matter how many re-votes are held, there are always going to be some voters who claim their votes were miscounted. At some point, you have to declare the result final. And if there are unresolved complaints about how the votes were recorded—and in a blockchain-based system, there always will be—then the losing candidate's supporters will view the results as illegitimate.

@@ -1,0 +1,19 @@
+Qualcomm was dealt a major loss in one of its many ongoing legal battles this afternoon, with a federal court ruling that the company must license its modem patents to competing chipmakers, potentially weakening its stranglehold on the market.
+
+The ruling came out of a Federal Trade Commission lawsuit against Qualcomm, which was filed near the start of 2017. The crux of the lawsuit — whether Qualcomm used anti-competitive practices to maintain a monopoly over smartphone modems — isn’t being ruled on here. But the court did hone in on a single question at issue: whether Qualcomm has to license standard essential patents to competitors.
+
+THE COURT RULED IT “UNAMBIGUOUS” THAT QUALCOMM WAS WRONG
+In this case, the court ruled it does. Qualcomm agreed to two separate policies that said it would offer select patents on a non-discriminatory basis. Those patents were essential to wireless standards — and only accepted into the standards because of Qualcomm’s agreement to license to everyone. After looking at the contracts, the court said it was “unambiguous” that Qualcomm was wrong here. Qualcomm did not immediately respond to a request for comment.
+
+If Qualcomm were allowed to keep its standard essential patents to itself, the court wrote, it would enable the company “to achieve a monopoly in the modem chip market and limit competing implementations of those components.” That phrasing may be concerning for Qualcomm, as whether it used anti-competitive practices to maintain a monopoly is at issue in the rest of the lawsuit.
+
+The ruling means that Qualcomm has to license patents necessary for building a smartphone modem to competing companies, like Intel. Until now, Qualcomm has only offered those licenses to companies that directly manufacture smartphones, and it seems that Qualcomm only did that when it was directly selling chips to them.
+
+THIS COULD LEAD TO MORE OR BETTER MODEMS FROM OTHER COMPANIES
+That’s meant that a company like Intel, which badly wants to compete with Qualcomm in this market, has had to work around Qualcomm’s patents in order to sell modems of its own. And it means that a company like Apple or Samsung, that wants to sell a ton of smartphones, has largely had to rely on Qualcomm’s chips in order to do so.
+
+That’s bad news for Qualcomm, but good news for the rest of the industry. Should the ruling hold, it could enable more companies to build modems or for those modems to be more competitive than they are today. Intel, for instance, already makes competing modems, but they’ve never been as fast as Qualcomm’s.
+
+What doesn’t seem to be changing, however, is how much Qualcomm can charge for those patents. The FTC has also accused Qualcomm of charging too-high fees for its patents, despite these same agreements requiring it to only impose “reasonable” fees. Apple is suing Qualcomm over the very same issue, but courts have yet to rule on this.
+
+Qualcomm faces similar legal battles around the globe. Apple is suing it in multiple locations over onerous licensing fees, while Qualcomm has already been fined in South Korea, Taiwan, the European Union, and China for issues related to anti-competitive licensing practices.
