@@ -6,7 +6,7 @@ Current versions simply sums up text inputs.
 
 Usage is `java -jar testarticle.txt`
 
-Ex:
+Ex:  
 `jack@hostname:~/Projects/TreeMail-Kotlin$ java -jar Summarize.jar testarticle4.txt `
 
 > If Qualcomm were allowed to keep its standard essential patents to itself, the court wrote, it would enable the company “to achieve a monopoly in the modem chip market and limit competing implementations of those components.  Until now, Qualcomm has only offered those licenses to companies that directly manufacture smartphones, and it seems that Qualcomm only did that when it was directly selling chips to them. 
