@@ -17,11 +17,11 @@ The class Article takes an article as input. Available variables and methods are
   tagcloud- Contains the top keywords from the article
   
 Example:
-  fun main(args: Array<String>) {
-    for (i in args) {
-      val inputarticle = Article(File(i).readText())
-      println(inputarticle.tagcloud)
-      println(inputarticle.summary+"\n\n\n")
-      println(inputarticle.wordscore)
+    fun main(args: Array<String>) {
+      for (i in args) {
+        val inputarticle = Article(File(i).readText())
+        println(inputarticle.tagcloud)
+        println(inputarticle.summary+"\n\n\n")
+        println(inputarticle.wordscore)
+      }
     }
-  }
