@@ -27,7 +27,7 @@ class Article(_article:String) {
 
   var article:String = _article
   private var ignorelist:List<String>
-  private var wordscore = HashMap<String,Int>() //TODO: Fix so there is a permanent copy
+  var wordscore = HashMap<String,Int>()
   var synopsis:String = ""
   var tagcloud:List<String> = listOf()
 
