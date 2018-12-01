@@ -37,7 +37,7 @@ class Article(_article:String) {
     return _ignorelist
   }
   init {
-    ignorelist = this@article.fillignorelist()
+    ignorelist = this@Article.fillignorelist()
   }
   // cleans the punctuation and doublewhitespace from the input
   private fun removewhitespaceandpunctuation(textstring: String): String {
@@ -51,7 +51,7 @@ class Article(_article:String) {
   //retuns the number of words in a string
   //calls removewhiespaceandpunctuation
   private fun sentencelength(textstring: String): Int {
-    val processedstring = this@article.removewhitespaceandpunctuation(textstring)
+    val processedstring = this@Article.removewhitespaceandpunctuation(textstring)
     val sentencesize = processedstring.split(" ").size
     return sentencesize
   }
@@ -81,14 +81,14 @@ class Article(_article:String) {
   //wrapper for wordfreq, cleans punctuation and whitespace out of the text
   //calls: whitespace and wordfreq
   private fun cleanandcountwords(): HashMap<String,Int>  {
-    val purestring: String = this@article.removewhitespaceandpunctuation(article).toLowerCase()
+    val purestring: String = this@Article.removewhitespaceandpunctuation(article).toLowerCase()
     val wordlist:List<String> = purestring.split(" ")
-    val wordscore:HashMap<String,Int> = this@article.wordfreq(wordlist)
+    val wordscore:HashMap<String,Int> = this@Article.wordfreq(wordlist)
     return wordscore
   }
   
   init {
-  wordscore = this@article.cleanandcountwords()
+  wordscore = this@Article.cleanandcountwords()
   }
   
   //Sorts the dict by value and returns the values.
@@ -116,7 +116,7 @@ class Article(_article:String) {
       if (i in tagcloud || i in synopsis.toLowerCase() || i in ignorelist) {
         continue
       }
-      sentencescore += this@article.wordscore(i)//add the wordscore to the sentencescore
+      sentencescore += this@Article.wordscore(i)//add the wordscore to the sentencescore
       var word = i //assign the word to 'word' so it can be added to the tagcld
       for (j in 0..tagcloud.size-1){//add word to tag cloud
         //if the slot is empty, place the word in the slot
@@ -125,7 +125,7 @@ class Article(_article:String) {
           break
         }
         // if the score is greater than that word, push all words down a slot
-        if (this@article.wordscore(word) > this@article.wordscore(tagcloud[j])) {
+        if (this@Article.wordscore(word) > this@Article.wordscore(tagcloud[j])) {
           var tempword = tagcloud[j] //swap word and tagcloud[j]
           tagcloud[j] = word
           word = tempword
@@ -149,8 +149,8 @@ class Article(_article:String) {
     var sentencevalues = mutableListOf<List<Any>>()
     var puresentence:String
     for (sentence in articlelist) {
-      puresentence = this@article.removewhitespaceandpunctuation(sentence)
-      this@article.sentencevalues.add(listOf(sentence+". ") + this@article.sentencescore(puresentence))
+      puresentence = this@Article.removewhitespaceandpunctuation(sentence)
+      sentencevalues.add(listOf(sentence+". ") + this@Article.sentencescore(puresentence))
     }
     return sentencevalues
   }
@@ -170,18 +170,18 @@ class Article(_article:String) {
   //select the top 1-3 sentences and loads them into synopsis
   //calls countworddensity, gettopsentence
   private fun getshortsynopsis(){
-    val synopsislength = this@article.sentencelength(article)
+    val synopsislength = this@Article.sentencelength(article)
     val finallength = round(10*log(synopsislength + 0.0,3.0)).toInt()
     while ( synopsis.split(" ").size < finallength + 2 ) {
-       val newwordscore = this@article.countworddensity()
-       val result = this@article.gettopsentence(newwordscore)
+       val newwordscore = this@Article.countworddensity()
+       val result = this@Article.gettopsentence(newwordscore)
        synopsis += result[0]
        tagcloud += result[1] as List<String>
     }
   }
   
   init {
-    this@article.getshortsynopsis()
+    this@Article.getshortsynopsis()
   }
   //returns a shortened version of the article
   //TODO: Finish this in the future
